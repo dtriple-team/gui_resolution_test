@@ -17,8 +17,8 @@
           {
             "InteractionName": "Interaction1",
             "Trigger": {
-              "Type": "TriggerClicked",
-              "TriggerComponent": "button1"
+              "Type": "TriggerOnEveryTick",
+              "TickCount": 6000
             },
             "Action": {
               "Type": "ActionGotoScreen",
@@ -45,8 +45,8 @@
           {
             "InteractionName": "Interaction1",
             "Trigger": {
-              "Type": "TriggerClicked",
-              "TriggerComponent": "button1"
+              "Type": "TriggerOnEveryTick",
+              "TickCount": 6000
             },
             "Action": {
               "Type": "ActionGotoScreen",

@@ -6,7 +6,7 @@
 #include <images/BitmapDatabase.hpp>
 
 Screen1ViewBase::Screen1ViewBase() :
-    buttonCallback(this, &Screen1ViewBase::buttonCallbackHandler)
+    frameCountInteraction1Interval(0)
 {
     __background.setPosition(0, 0, 240, 280);
     __background.setColor(touchgfx::Color::getColorFromRGB(0, 0, 0));
@@ -14,7 +14,6 @@ Screen1ViewBase::Screen1ViewBase() :
 
     button1.setXY(0, 0);
     button1.setBitmaps(touchgfx::Bitmap(BITMAP_WATCH_MIAN1_ID), touchgfx::Bitmap(BITMAP_WATCH_MIAN1_ID));
-    button1.setAction(buttonCallback);
     add(button1);
 }
 
@@ -28,13 +27,15 @@ void Screen1ViewBase::setupScreen()
 
 }
 
-void Screen1ViewBase::buttonCallbackHandler(const touchgfx::AbstractButton& src)
+void Screen1ViewBase::handleTickEvent()
 {
-    if (&src == &button1)
+    frameCountInteraction1Interval++;
+    if(frameCountInteraction1Interval == TICK_INTERACTION1_INTERVAL)
     {
         //Interaction1
-        //When button1 clicked change screen to Screen1_1
+        //When every N tick change screen to Screen1_1
         //Go to Screen1_1 with no screen transition
         application().gotoScreen1_1ScreenNoTransition();
+        frameCountInteraction1Interval = 0;
     }
 }

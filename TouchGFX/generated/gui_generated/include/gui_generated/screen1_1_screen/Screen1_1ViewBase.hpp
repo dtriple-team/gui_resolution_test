@@ -16,6 +16,7 @@ public:
     Screen1_1ViewBase();
     virtual ~Screen1_1ViewBase();
     virtual void setupScreen();
+    virtual void handleTickEvent();
 
 protected:
     FrontendApplication& application() {
@@ -31,14 +32,10 @@ protected:
 private:
 
     /*
-     * Callback Declarations
+     * Tick Counter Declarations
      */
-    touchgfx::Callback<Screen1_1ViewBase, const touchgfx::AbstractButton&> buttonCallback;
-
-    /*
-     * Callback Handler Declarations
-     */
-    void buttonCallbackHandler(const touchgfx::AbstractButton& src);
+    static const uint32_t TICK_INTERACTION1_INTERVAL = 6000;
+    uint32_t frameCountInteraction1Interval;
 
 };
 
