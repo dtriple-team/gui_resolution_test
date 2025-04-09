@@ -12,7 +12,7 @@ Screen1ViewBase::Screen1ViewBase() :
     __background.setColor(touchgfx::Color::getColorFromRGB(0, 0, 0));
     add(__background);
 
-    button1.setXY(-128, 0);
+    button1.setXY(0, 0);
     button1.setBitmaps(touchgfx::Bitmap(BITMAP_WATCH_MIAN1_ID), touchgfx::Bitmap(BITMAP_WATCH_MIAN1_ID));
     button1.setAction(buttonCallback);
     add(button1);

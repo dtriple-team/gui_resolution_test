@@ -7,9 +7,8 @@
           {
             "Type": "Button",
             "Name": "button1",
-            "X": -128,
-            "Width": 368,
-            "Height": 448,
+            "Width": 240,
+            "Height": 281,
             "Pressed": "watch_mian1.png",
             "Released": "watch_mian1.png"
           }
@@ -35,12 +34,11 @@
           {
             "Type": "Button",
             "Name": "button1",
-            "X": -64,
-            "Y": -168,
-            "Width": 368,
-            "Height": 448,
-            "Pressed": "watch_mian1.png",
-            "Released": "watch_mian1.png"
+            "Y": -1,
+            "Width": 240,
+            "Height": 281,
+            "Pressed": "watch_2.png",
+            "Released": "watch_2.png"
           }
         ],
         "Interactions": [

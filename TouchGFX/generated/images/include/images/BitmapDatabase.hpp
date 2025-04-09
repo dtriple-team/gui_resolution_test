@@ -6,7 +6,8 @@
 #include <touchgfx/hal/Types.hpp>
 #include <touchgfx/Bitmap.hpp>
 
-const uint16_t BITMAP_WATCH_MIAN1_ID = 0;
+const uint16_t BITMAP_WATCH_2_ID = 0;
+const uint16_t BITMAP_WATCH_MIAN1_ID = 1;
 
 namespace BitmapDatabase
 {
