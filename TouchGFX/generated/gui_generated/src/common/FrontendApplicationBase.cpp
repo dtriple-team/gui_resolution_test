@@ -9,10 +9,18 @@
 #include <touchgfx/Texts.hpp>
 #include <touchgfx/hal/HAL.hpp>
 #include <platform/driver/lcd/LCD16bpp.hpp>
-#include <gui/screen1_screen/Screen1View.hpp>
-#include <gui/screen1_screen/Screen1Presenter.hpp>
-#include <gui/screen1_1_screen/Screen1_1View.hpp>
-#include <gui/screen1_1_screen/Screen1_1Presenter.hpp>
+#include <gui/main_screen/MainView.hpp>
+#include <gui/main_screen/MainPresenter.hpp>
+#include <gui/skintemp_permin_screen/Skintemp_perminView.hpp>
+#include <gui/skintemp_permin_screen/Skintemp_perminPresenter.hpp>
+#include <gui/hr_permin_screen/Hr_perminView.hpp>
+#include <gui/hr_permin_screen/Hr_perminPresenter.hpp>
+#include <gui/cal_permin_screen/Cal_perminView.hpp>
+#include <gui/cal_permin_screen/Cal_perminPresenter.hpp>
+#include <gui/measure_hr_screen/Measure_hrView.hpp>
+#include <gui/measure_hr_screen/Measure_hrPresenter.hpp>
+#include <gui/enter_user_info_screen/Enter_user_infoView.hpp>
+#include <gui/enter_user_info_screen/Enter_user_infoPresenter.hpp>
 
 using namespace touchgfx;
 
@@ -37,28 +45,54 @@ FrontendApplicationBase::FrontendApplicationBase(Model& m, FrontendHeap& heap)
  * Screen Transition Declarations
  */
 
-// Screen1
+// Main
 
-void FrontendApplicationBase::gotoScreen1ScreenNoTransition()
+void FrontendApplicationBase::gotoMainScreenNoTransition()
 {
-    transitionCallback = touchgfx::Callback<FrontendApplicationBase>(this, &FrontendApplicationBase::gotoScreen1ScreenNoTransitionImpl);
+    transitionCallback = touchgfx::Callback<FrontendApplicationBase>(this, &FrontendApplicationBase::gotoMainScreenNoTransitionImpl);
     pendingScreenTransitionCallback = &transitionCallback;
 }
 
-void FrontendApplicationBase::gotoScreen1ScreenNoTransitionImpl()
+void FrontendApplicationBase::gotoMainScreenNoTransitionImpl()
 {
-    touchgfx::makeTransition<Screen1View, Screen1Presenter, touchgfx::NoTransition, Model >(&currentScreen, &currentPresenter, frontendHeap, &currentTransition, &model);
+    touchgfx::makeTransition<MainView, MainPresenter, touchgfx::NoTransition, Model >(&currentScreen, &currentPresenter, frontendHeap, &currentTransition, &model);
 }
 
-// Screen1_1
+// Skintemp_permin
 
-void FrontendApplicationBase::gotoScreen1_1ScreenNoTransition()
+void FrontendApplicationBase::gotoSkintemp_perminScreenNoTransition()
 {
-    transitionCallback = touchgfx::Callback<FrontendApplicationBase>(this, &FrontendApplicationBase::gotoScreen1_1ScreenNoTransitionImpl);
+    transitionCallback = touchgfx::Callback<FrontendApplicationBase>(this, &FrontendApplicationBase::gotoSkintemp_perminScreenNoTransitionImpl);
     pendingScreenTransitionCallback = &transitionCallback;
 }
 
-void FrontendApplicationBase::gotoScreen1_1ScreenNoTransitionImpl()
+void FrontendApplicationBase::gotoSkintemp_perminScreenNoTransitionImpl()
 {
-    touchgfx::makeTransition<Screen1_1View, Screen1_1Presenter, touchgfx::NoTransition, Model >(&currentScreen, &currentPresenter, frontendHeap, &currentTransition, &model);
+    touchgfx::makeTransition<Skintemp_perminView, Skintemp_perminPresenter, touchgfx::NoTransition, Model >(&currentScreen, &currentPresenter, frontendHeap, &currentTransition, &model);
+}
+
+// Hr_permin
+
+void FrontendApplicationBase::gotoHr_perminScreenNoTransition()
+{
+    transitionCallback = touchgfx::Callback<FrontendApplicationBase>(this, &FrontendApplicationBase::gotoHr_perminScreenNoTransitionImpl);
+    pendingScreenTransitionCallback = &transitionCallback;
+}
+
+void FrontendApplicationBase::gotoHr_perminScreenNoTransitionImpl()
+{
+    touchgfx::makeTransition<Hr_perminView, Hr_perminPresenter, touchgfx::NoTransition, Model >(&currentScreen, &currentPresenter, frontendHeap, &currentTransition, &model);
+}
+
+// Cal_permin
+
+void FrontendApplicationBase::gotoCal_perminScreenNoTransition()
+{
+    transitionCallback = touchgfx::Callback<FrontendApplicationBase>(this, &FrontendApplicationBase::gotoCal_perminScreenNoTransitionImpl);
+    pendingScreenTransitionCallback = &transitionCallback;
+}
+
+void FrontendApplicationBase::gotoCal_perminScreenNoTransitionImpl()
+{
+    touchgfx::makeTransition<Cal_perminView, Cal_perminPresenter, touchgfx::NoTransition, Model >(&currentScreen, &currentPresenter, frontendHeap, &currentTransition, &model);
 }

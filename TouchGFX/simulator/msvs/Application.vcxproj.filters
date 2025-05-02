@@ -184,29 +184,77 @@
     <Filter Include="Source Files\generated\gui_generated\containers">
       <UniqueIdentifier>1BC71715-324C-7E4D-BB75-6597885F2D57</UniqueIdentifier>
     </Filter>
-    <Filter Include="Header Files\gui\screen1_screen">
-      <UniqueIdentifier>82BF880E-AB1A-70EB-D965-D69CCA1BA467</UniqueIdentifier>
+    <Filter Include="Header Files\gui\main_screen">
+      <UniqueIdentifier>DB4A260C-C8A1-89D4-4833-7D26A70E8CC4</UniqueIdentifier>
     </Filter>
-    <Filter Include="Source Files\gui\screen1_screen">
-      <UniqueIdentifier>19E2E4A3-8F6E-547A-C8F4-0D04C0B41C3F</UniqueIdentifier>
+    <Filter Include="Source Files\gui\main_screen">
+      <UniqueIdentifier>2E6BC228-AF76-4BA7-F389-E1B7F003F744</UniqueIdentifier>
     </Filter>
-    <Filter Include="Header Files\gui\screen1_1_screen">
-      <UniqueIdentifier>49716ACA-6740-34F2-EE9F-D32089170768</UniqueIdentifier>
+    <Filter Include="Header Files\generated\gui_generated\main_screen">
+      <UniqueIdentifier>70328F3B-23D6-C36A-DA3D-A8980FD72D11</UniqueIdentifier>
     </Filter>
-    <Filter Include="Source Files\gui\screen1_1_screen">
-      <UniqueIdentifier>C2F4863F-76CA-BD4D-2251-08464917B4E5</UniqueIdentifier>
+    <Filter Include="Source Files\generated\gui_generated\main_screen">
+      <UniqueIdentifier>1169647D-CA51-AFAA-3FC5-AF2632EF2252</UniqueIdentifier>
     </Filter>
-    <Filter Include="Header Files\generated\gui_generated\screen1_screen">
-      <UniqueIdentifier>4EFD54C7-06A4-02BA-03ED-A6E31DCF2B1B</UniqueIdentifier>
+    <Filter Include="Header Files\gui\cal_permin_screen">
+      <UniqueIdentifier>80EDCA58-8E9C-EAFF-FD54-FEE3A8E94DC9</UniqueIdentifier>
     </Filter>
-    <Filter Include="Source Files\generated\gui_generated\screen1_screen">
-      <UniqueIdentifier>3204F84F-5B51-0811-B622-BACB2368ABF1</UniqueIdentifier>
+    <Filter Include="Source Files\gui\skintemp_permin_screen">
+      <UniqueIdentifier>60190024-4D75-A590-8C93-5DA01446F4AF</UniqueIdentifier>
     </Filter>
-    <Filter Include="Header Files\generated\gui_generated\screen1_1_screen">
-      <UniqueIdentifier>5B03DE80-1749-45FF-1D92-7E8175692606</UniqueIdentifier>
+    <Filter Include="Source Files\gui\cal_permin_screen">
+      <UniqueIdentifier>E7CB0E44-D6BE-2658-46F9-CB98D3EF41D3</UniqueIdentifier>
     </Filter>
-    <Filter Include="Source Files\generated\gui_generated\screen1_1_screen">
-      <UniqueIdentifier>91B4CB49-DB5C-0B29-E876-71508626D211</UniqueIdentifier>
+    <Filter Include="Header Files\gui\skintemp_permin_screen">
+      <UniqueIdentifier>6A74E7E9-1C1C-108E-C435-7E81A7D02D62</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\gui\hr_permin_screen">
+      <UniqueIdentifier>859F36C3-EDFC-DC51-E8AA-B10AC2D9A00D</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\gui\hr_permin_screen">
+      <UniqueIdentifier>A001C455-30DB-B54E-C718-4152A8210663</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\generated\gui_generated\hr_permin_screen">
+      <UniqueIdentifier>452FCE9A-AC29-2D07-58B9-4B2A36B1771B</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\generated\gui_generated\hr_permin_screen">
+      <UniqueIdentifier>B2E3F945-94C2-FB45-88D1-6B695A5A3674</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\generated\gui_generated\skintemp_permin_screen">
+      <UniqueIdentifier>1AF31713-90F4-6336-85C2-848ED7E327FF</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\generated\gui_generated\skintemp_permin_screen">
+      <UniqueIdentifier>F7210E96-1DF8-932D-5E50-71EFC669DDC7</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\generated\gui_generated\cal_permin_screen">
+      <UniqueIdentifier>4F303EA6-1DAF-18E3-5DB2-D9F5EEFE3B6A</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\generated\gui_generated\cal_permin_screen">
+      <UniqueIdentifier>6046290C-AC63-4D56-2EC0-5F4C5FFC89F7</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\gui\measure_hr_screen">
+      <UniqueIdentifier>55E75CC5-54C3-EEC1-83F6-0417C5B4329B</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\gui\measure_hr_screen">
+      <UniqueIdentifier>A969661E-BB91-BC38-0C76-F4353EDEB19F</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\generated\gui_generated\measure_hr_screen">
+      <UniqueIdentifier>018E5310-BD21-629F-22A8-9C0E08BA6ACA</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\generated\gui_generated\measure_hr_screen">
+      <UniqueIdentifier>924CE9F8-E685-A087-1D3C-A9757D9E4FC4</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\gui\enter_user_info_screen">
+      <UniqueIdentifier>A633497A-7393-F0D0-34E3-FF3E33C78198</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\gui\enter_user_info_screen">
+      <UniqueIdentifier>D09C6067-B944-84CE-00D1-EEA870908530</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\generated\gui_generated\enter_user_info_screen">
+      <UniqueIdentifier>F7E26128-F4E7-0D67-4AE4-A89093A5A865</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\generated\gui_generated\enter_user_info_screen">
+      <UniqueIdentifier>889C0DD2-3576-E645-007B-EA8E9FCE8178</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
@@ -240,59 +288,89 @@
     <ClCompile Include="..\..\generated\simulator\src\video\SoftwareMJPEGDecoder.cpp">
       <Filter>Source Files\generated\simulator\video</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\gui\src\containers\setting_screenontime_notselected.cpp">
+    <ClCompile Include="..\..\gui\src\containers\main_container.cpp">
       <Filter>Source Files\gui\containers</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\generated\gui_generated\src\containers\setting_screenontime_notselectedBase.cpp">
+    <ClCompile Include="..\..\generated\gui_generated\src\containers\main_containerBase.cpp">
       <Filter>Source Files\generated\gui_generated\containers</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\gui\src\containers\setting_screenontime_selected.cpp">
+    <ClCompile Include="..\..\gui\src\containers\mini_time_container.cpp">
       <Filter>Source Files\gui\containers</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\generated\gui_generated\src\containers\setting_screenontime_selectedBase.cpp">
+    <ClCompile Include="..\..\generated\gui_generated\src\containers\mini_time_containerBase.cpp">
       <Filter>Source Files\generated\gui_generated\containers</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\gui\src\containers\setting_stimul_strength_notselected.cpp">
+    <ClCompile Include="..\..\gui\src\cal_permin_screen\Cal_perminPresenter.cpp">
+      <Filter>Source Files\gui\cal_permin_screen</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\gui\src\cal_permin_screen\Cal_perminView.cpp">
+      <Filter>Source Files\gui\cal_permin_screen</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\generated\gui_generated\src\cal_permin_screen\Cal_perminViewBase.cpp">
+      <Filter>Source Files\generated\gui_generated\cal_permin_screen</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\gui\src\hr_permin_screen\Hr_perminPresenter.cpp">
+      <Filter>Source Files\gui\hr_permin_screen</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\gui\src\hr_permin_screen\Hr_perminView.cpp">
+      <Filter>Source Files\gui\hr_permin_screen</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\generated\gui_generated\src\hr_permin_screen\Hr_perminViewBase.cpp">
+      <Filter>Source Files\generated\gui_generated\hr_permin_screen</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\gui\src\main_screen\MainPresenter.cpp">
+      <Filter>Source Files\gui\main_screen</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\gui\src\main_screen\MainView.cpp">
+      <Filter>Source Files\gui\main_screen</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\generated\gui_generated\src\main_screen\MainViewBase.cpp">
+      <Filter>Source Files\generated\gui_generated\main_screen</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\gui\src\skintemp_permin_screen\Skintemp_perminPresenter.cpp">
+      <Filter>Source Files\gui\skintemp_permin_screen</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\gui\src\skintemp_permin_screen\Skintemp_perminView.cpp">
+      <Filter>Source Files\gui\skintemp_permin_screen</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\generated\gui_generated\src\skintemp_permin_screen\Skintemp_perminViewBase.cpp">
+      <Filter>Source Files\generated\gui_generated\skintemp_permin_screen</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\gui\src\containers\cal_permin_container.cpp">
       <Filter>Source Files\gui\containers</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\generated\gui_generated\src\containers\setting_stimul_strength_notselectedBase.cpp">
+    <ClCompile Include="..\..\generated\gui_generated\src\containers\cal_permin_containerBase.cpp">
       <Filter>Source Files\generated\gui_generated\containers</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\gui\src\containers\setting_stimul_strength_selected.cpp">
+    <ClCompile Include="..\..\gui\src\containers\hr_permin_container.cpp">
       <Filter>Source Files\gui\containers</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\generated\gui_generated\src\containers\setting_stimul_strength_selectedBase.cpp">
+    <ClCompile Include="..\..\generated\gui_generated\src\containers\hr_permin_containerBase.cpp">
       <Filter>Source Files\generated\gui_generated\containers</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\gui\src\containers\setting_stimul_time_notselected.cpp">
+    <ClCompile Include="..\..\gui\src\containers\skintemp_permin_container.cpp">
       <Filter>Source Files\gui\containers</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\generated\gui_generated\src\containers\setting_stimul_time_notselectedBase.cpp">
+    <ClCompile Include="..\..\generated\gui_generated\src\containers\skintemp_permin_containerBase.cpp">
       <Filter>Source Files\generated\gui_generated\containers</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\gui\src\containers\setting_stimul_time_selected.cpp">
-      <Filter>Source Files\gui\containers</Filter>
+    <ClCompile Include="..\..\gui\src\measure_hr_screen\Measure_hrPresenter.cpp">
+      <Filter>Source Files\gui\measure_hr_screen</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\generated\gui_generated\src\containers\setting_stimul_time_selectedBase.cpp">
-      <Filter>Source Files\generated\gui_generated\containers</Filter>
+    <ClCompile Include="..\..\gui\src\measure_hr_screen\Measure_hrView.cpp">
+      <Filter>Source Files\gui\measure_hr_screen</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\gui\src\screen1_1_screen\Screen1_1Presenter.cpp">
-      <Filter>Source Files\gui\screen1_1_screen</Filter>
+    <ClCompile Include="..\..\generated\gui_generated\src\measure_hr_screen\Measure_hrViewBase.cpp">
+      <Filter>Source Files\generated\gui_generated\measure_hr_screen</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\gui\src\screen1_1_screen\Screen1_1View.cpp">
-      <Filter>Source Files\gui\screen1_1_screen</Filter>
+    <ClCompile Include="..\..\gui\src\enter_user_info_screen\Enter_user_infoPresenter.cpp">
+      <Filter>Source Files\gui\enter_user_info_screen</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\generated\gui_generated\src\screen1_1_screen\Screen1_1ViewBase.cpp">
-      <Filter>Source Files\generated\gui_generated\screen1_1_screen</Filter>
+    <ClCompile Include="..\..\gui\src\enter_user_info_screen\Enter_user_infoView.cpp">
+      <Filter>Source Files\gui\enter_user_info_screen</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\gui\src\screen1_screen\Screen1Presenter.cpp">
-      <Filter>Source Files\gui\screen1_screen</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\gui\src\screen1_screen\Screen1View.cpp">
-      <Filter>Source Files\gui\screen1_screen</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\generated\gui_generated\src\screen1_screen\Screen1ViewBase.cpp">
-      <Filter>Source Files\generated\gui_generated\screen1_screen</Filter>
+    <ClCompile Include="..\..\generated\gui_generated\src\enter_user_info_screen\Enter_user_infoViewBase.cpp">
+      <Filter>Source Files\generated\gui_generated\enter_user_info_screen</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -736,59 +814,89 @@
     <ClInclude Include="..\..\generated\simulator\include\simulator\video\SoftwareMJPEGDecoder.hpp">
       <Filter>Header Files\generated\simulator\include\simulator\video</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\gui\include\gui\containers\setting_screenontime_notselected.hpp">
+    <ClInclude Include="..\..\gui\include\gui\containers\main_container.hpp">
       <Filter>Header Files\gui\containers</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\generated\gui_generated\include\gui_generated\containers\setting_screenontime_notselectedBase.hpp">
+    <ClInclude Include="..\..\generated\gui_generated\include\gui_generated\containers\main_containerBase.hpp">
       <Filter>Header Files\generated\gui_generated\containers</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\gui\include\gui\containers\setting_screenontime_selected.hpp">
+    <ClInclude Include="..\..\gui\include\gui\containers\mini_time_container.hpp">
       <Filter>Header Files\gui\containers</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\generated\gui_generated\include\gui_generated\containers\setting_screenontime_selectedBase.hpp">
+    <ClInclude Include="..\..\generated\gui_generated\include\gui_generated\containers\mini_time_containerBase.hpp">
       <Filter>Header Files\generated\gui_generated\containers</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\gui\include\gui\containers\setting_stimul_strength_notselected.hpp">
+    <ClInclude Include="..\..\gui\include\gui\cal_permin_screen\Cal_perminPresenter.hpp">
+      <Filter>Header Files\gui\cal_permin_screen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\gui\include\gui\cal_permin_screen\Cal_perminView.hpp">
+      <Filter>Header Files\gui\cal_permin_screen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\generated\gui_generated\include\gui_generated\cal_permin_screen\Cal_perminViewBase.hpp">
+      <Filter>Header Files\generated\gui_generated\cal_permin_screen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\gui\include\gui\hr_permin_screen\Hr_perminPresenter.hpp">
+      <Filter>Header Files\gui\hr_permin_screen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\gui\include\gui\hr_permin_screen\Hr_perminView.hpp">
+      <Filter>Header Files\gui\hr_permin_screen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\generated\gui_generated\include\gui_generated\hr_permin_screen\Hr_perminViewBase.hpp">
+      <Filter>Header Files\generated\gui_generated\hr_permin_screen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\gui\include\gui\main_screen\MainPresenter.hpp">
+      <Filter>Header Files\gui\main_screen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\gui\include\gui\main_screen\MainView.hpp">
+      <Filter>Header Files\gui\main_screen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\generated\gui_generated\include\gui_generated\main_screen\MainViewBase.hpp">
+      <Filter>Header Files\generated\gui_generated\main_screen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\gui\include\gui\skintemp_permin_screen\Skintemp_perminPresenter.hpp">
+      <Filter>Header Files\gui\skintemp_permin_screen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\gui\include\gui\skintemp_permin_screen\Skintemp_perminView.hpp">
+      <Filter>Header Files\gui\skintemp_permin_screen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\generated\gui_generated\include\gui_generated\skintemp_permin_screen\Skintemp_perminViewBase.hpp">
+      <Filter>Header Files\generated\gui_generated\skintemp_permin_screen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\gui\include\gui\containers\cal_permin_container.hpp">
       <Filter>Header Files\gui\containers</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\generated\gui_generated\include\gui_generated\containers\setting_stimul_strength_notselectedBase.hpp">
+    <ClInclude Include="..\..\generated\gui_generated\include\gui_generated\containers\cal_permin_containerBase.hpp">
       <Filter>Header Files\generated\gui_generated\containers</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\gui\include\gui\containers\setting_stimul_strength_selected.hpp">
+    <ClInclude Include="..\..\gui\include\gui\containers\hr_permin_container.hpp">
       <Filter>Header Files\gui\containers</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\generated\gui_generated\include\gui_generated\containers\setting_stimul_strength_selectedBase.hpp">
+    <ClInclude Include="..\..\generated\gui_generated\include\gui_generated\containers\hr_permin_containerBase.hpp">
       <Filter>Header Files\generated\gui_generated\containers</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\gui\include\gui\containers\setting_stimul_time_notselected.hpp">
+    <ClInclude Include="..\..\gui\include\gui\containers\skintemp_permin_container.hpp">
       <Filter>Header Files\gui\containers</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\generated\gui_generated\include\gui_generated\containers\setting_stimul_time_notselectedBase.hpp">
+    <ClInclude Include="..\..\generated\gui_generated\include\gui_generated\containers\skintemp_permin_containerBase.hpp">
       <Filter>Header Files\generated\gui_generated\containers</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\gui\include\gui\containers\setting_stimul_time_selected.hpp">
-      <Filter>Header Files\gui\containers</Filter>
+    <ClInclude Include="..\..\gui\include\gui\measure_hr_screen\Measure_hrPresenter.hpp">
+      <Filter>Header Files\gui\measure_hr_screen</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\generated\gui_generated\include\gui_generated\containers\setting_stimul_time_selectedBase.hpp">
-      <Filter>Header Files\generated\gui_generated\containers</Filter>
+    <ClInclude Include="..\..\gui\include\gui\measure_hr_screen\Measure_hrView.hpp">
+      <Filter>Header Files\gui\measure_hr_screen</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\gui\include\gui\screen1_1_screen\Screen1_1Presenter.hpp">
-      <Filter>Header Files\gui\screen1_1_screen</Filter>
+    <ClInclude Include="..\..\generated\gui_generated\include\gui_generated\measure_hr_screen\Measure_hrViewBase.hpp">
+      <Filter>Header Files\generated\gui_generated\measure_hr_screen</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\gui\include\gui\screen1_1_screen\Screen1_1View.hpp">
-      <Filter>Header Files\gui\screen1_1_screen</Filter>
+    <ClInclude Include="..\..\gui\include\gui\enter_user_info_screen\Enter_user_infoPresenter.hpp">
+      <Filter>Header Files\gui\enter_user_info_screen</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\generated\gui_generated\include\gui_generated\screen1_1_screen\Screen1_1ViewBase.hpp">
-      <Filter>Header Files\generated\gui_generated\screen1_1_screen</Filter>
+    <ClInclude Include="..\..\gui\include\gui\enter_user_info_screen\Enter_user_infoView.hpp">
+      <Filter>Header Files\gui\enter_user_info_screen</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\gui\include\gui\screen1_screen\Screen1Presenter.hpp">
-      <Filter>Header Files\gui\screen1_screen</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\gui\include\gui\screen1_screen\Screen1View.hpp">
-      <Filter>Header Files\gui\screen1_screen</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\generated\gui_generated\include\gui_generated\screen1_screen\Screen1ViewBase.hpp">
-      <Filter>Header Files\generated\gui_generated\screen1_screen</Filter>
+    <ClInclude Include="..\..\generated\gui_generated\include\gui_generated\enter_user_info_screen\Enter_user_infoViewBase.hpp">
+      <Filter>Header Files\generated\gui_generated\enter_user_info_screen</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>

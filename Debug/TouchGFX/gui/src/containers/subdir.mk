@@ -1,32 +1,29 @@
 ################################################################################
 # Automatically-generated file. Do not edit!
-# Toolchain: GNU Tools for STM32 (13.3.rel1)
+# Toolchain: GNU Tools for STM32 (12.3.rel1)
 ################################################################################
 
 # Add inputs and outputs from these tool invocations to the build variables 
 CPP_SRCS += \
-../TouchGFX/gui/src/containers/setting_screenontime_notselected.cpp \
-../TouchGFX/gui/src/containers/setting_screenontime_selected.cpp \
-../TouchGFX/gui/src/containers/setting_stimul_strength_notselected.cpp \
-../TouchGFX/gui/src/containers/setting_stimul_strength_selected.cpp \
-../TouchGFX/gui/src/containers/setting_stimul_time_notselected.cpp \
-../TouchGFX/gui/src/containers/setting_stimul_time_selected.cpp 
+../TouchGFX/gui/src/containers/cal_permin_container.cpp \
+../TouchGFX/gui/src/containers/hr_permin_container.cpp \
+../TouchGFX/gui/src/containers/main_container.cpp \
+../TouchGFX/gui/src/containers/mini_time_container.cpp \
+../TouchGFX/gui/src/containers/skintemp_permin_container.cpp 
 
 OBJS += \
-./TouchGFX/gui/src/containers/setting_screenontime_notselected.o \
-./TouchGFX/gui/src/containers/setting_screenontime_selected.o \
-./TouchGFX/gui/src/containers/setting_stimul_strength_notselected.o \
-./TouchGFX/gui/src/containers/setting_stimul_strength_selected.o \
-./TouchGFX/gui/src/containers/setting_stimul_time_notselected.o \
-./TouchGFX/gui/src/containers/setting_stimul_time_selected.o 
+./TouchGFX/gui/src/containers/cal_permin_container.o \
+./TouchGFX/gui/src/containers/hr_permin_container.o \
+./TouchGFX/gui/src/containers/main_container.o \
+./TouchGFX/gui/src/containers/mini_time_container.o \
+./TouchGFX/gui/src/containers/skintemp_permin_container.o 
 
 CPP_DEPS += \
-./TouchGFX/gui/src/containers/setting_screenontime_notselected.d \
-./TouchGFX/gui/src/containers/setting_screenontime_selected.d \
-./TouchGFX/gui/src/containers/setting_stimul_strength_notselected.d \
-./TouchGFX/gui/src/containers/setting_stimul_strength_selected.d \
-./TouchGFX/gui/src/containers/setting_stimul_time_notselected.d \
-./TouchGFX/gui/src/containers/setting_stimul_time_selected.d 
+./TouchGFX/gui/src/containers/cal_permin_container.d \
+./TouchGFX/gui/src/containers/hr_permin_container.d \
+./TouchGFX/gui/src/containers/main_container.d \
+./TouchGFX/gui/src/containers/mini_time_container.d \
+./TouchGFX/gui/src/containers/skintemp_permin_container.d 
 
 
 # Each subdirectory must supply rules for building sources it contributes
@@ -36,7 +33,7 @@ TouchGFX/gui/src/containers/%.o TouchGFX/gui/src/containers/%.su TouchGFX/gui/sr
 clean: clean-TouchGFX-2f-gui-2f-src-2f-containers
 
 clean-TouchGFX-2f-gui-2f-src-2f-containers:
-	-$(RM) ./TouchGFX/gui/src/containers/setting_screenontime_notselected.cyclo ./TouchGFX/gui/src/containers/setting_screenontime_notselected.d ./TouchGFX/gui/src/containers/setting_screenontime_notselected.o ./TouchGFX/gui/src/containers/setting_screenontime_notselected.su ./TouchGFX/gui/src/containers/setting_screenontime_selected.cyclo ./TouchGFX/gui/src/containers/setting_screenontime_selected.d ./TouchGFX/gui/src/containers/setting_screenontime_selected.o ./TouchGFX/gui/src/containers/setting_screenontime_selected.su ./TouchGFX/gui/src/containers/setting_stimul_strength_notselected.cyclo ./TouchGFX/gui/src/containers/setting_stimul_strength_notselected.d ./TouchGFX/gui/src/containers/setting_stimul_strength_notselected.o ./TouchGFX/gui/src/containers/setting_stimul_strength_notselected.su ./TouchGFX/gui/src/containers/setting_stimul_strength_selected.cyclo ./TouchGFX/gui/src/containers/setting_stimul_strength_selected.d ./TouchGFX/gui/src/containers/setting_stimul_strength_selected.o ./TouchGFX/gui/src/containers/setting_stimul_strength_selected.su ./TouchGFX/gui/src/containers/setting_stimul_time_notselected.cyclo ./TouchGFX/gui/src/containers/setting_stimul_time_notselected.d ./TouchGFX/gui/src/containers/setting_stimul_time_notselected.o ./TouchGFX/gui/src/containers/setting_stimul_time_notselected.su ./TouchGFX/gui/src/containers/setting_stimul_time_selected.cyclo ./TouchGFX/gui/src/containers/setting_stimul_time_selected.d ./TouchGFX/gui/src/containers/setting_stimul_time_selected.o ./TouchGFX/gui/src/containers/setting_stimul_time_selected.su
+	-$(RM) ./TouchGFX/gui/src/containers/cal_permin_container.cyclo ./TouchGFX/gui/src/containers/cal_permin_container.d ./TouchGFX/gui/src/containers/cal_permin_container.o ./TouchGFX/gui/src/containers/cal_permin_container.su ./TouchGFX/gui/src/containers/hr_permin_container.cyclo ./TouchGFX/gui/src/containers/hr_permin_container.d ./TouchGFX/gui/src/containers/hr_permin_container.o ./TouchGFX/gui/src/containers/hr_permin_container.su ./TouchGFX/gui/src/containers/main_container.cyclo ./TouchGFX/gui/src/containers/main_container.d ./TouchGFX/gui/src/containers/main_container.o ./TouchGFX/gui/src/containers/main_container.su ./TouchGFX/gui/src/containers/mini_time_container.cyclo ./TouchGFX/gui/src/containers/mini_time_container.d ./TouchGFX/gui/src/containers/mini_time_container.o ./TouchGFX/gui/src/containers/mini_time_container.su ./TouchGFX/gui/src/containers/skintemp_permin_container.cyclo ./TouchGFX/gui/src/containers/skintemp_permin_container.d ./TouchGFX/gui/src/containers/skintemp_permin_container.o ./TouchGFX/gui/src/containers/skintemp_permin_container.su
 
 .PHONY: clean-TouchGFX-2f-gui-2f-src-2f-containers
 

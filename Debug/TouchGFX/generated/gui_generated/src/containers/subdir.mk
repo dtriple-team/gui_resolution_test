@@ -1,32 +1,29 @@
 ################################################################################
 # Automatically-generated file. Do not edit!
-# Toolchain: GNU Tools for STM32 (13.3.rel1)
+# Toolchain: GNU Tools for STM32 (12.3.rel1)
 ################################################################################
 
 # Add inputs and outputs from these tool invocations to the build variables 
 CPP_SRCS += \
-../TouchGFX/generated/gui_generated/src/containers/setting_screenontime_notselectedBase.cpp \
-../TouchGFX/generated/gui_generated/src/containers/setting_screenontime_selectedBase.cpp \
-../TouchGFX/generated/gui_generated/src/containers/setting_stimul_strength_notselectedBase.cpp \
-../TouchGFX/generated/gui_generated/src/containers/setting_stimul_strength_selectedBase.cpp \
-../TouchGFX/generated/gui_generated/src/containers/setting_stimul_time_notselectedBase.cpp \
-../TouchGFX/generated/gui_generated/src/containers/setting_stimul_time_selectedBase.cpp 
+../TouchGFX/generated/gui_generated/src/containers/cal_permin_containerBase.cpp \
+../TouchGFX/generated/gui_generated/src/containers/hr_permin_containerBase.cpp \
+../TouchGFX/generated/gui_generated/src/containers/main_containerBase.cpp \
+../TouchGFX/generated/gui_generated/src/containers/mini_time_containerBase.cpp \
+../TouchGFX/generated/gui_generated/src/containers/skintemp_permin_containerBase.cpp 
 
 OBJS += \
-./TouchGFX/generated/gui_generated/src/containers/setting_screenontime_notselectedBase.o \
-./TouchGFX/generated/gui_generated/src/containers/setting_screenontime_selectedBase.o \
-./TouchGFX/generated/gui_generated/src/containers/setting_stimul_strength_notselectedBase.o \
-./TouchGFX/generated/gui_generated/src/containers/setting_stimul_strength_selectedBase.o \
-./TouchGFX/generated/gui_generated/src/containers/setting_stimul_time_notselectedBase.o \
-./TouchGFX/generated/gui_generated/src/containers/setting_stimul_time_selectedBase.o 
+./TouchGFX/generated/gui_generated/src/containers/cal_permin_containerBase.o \
+./TouchGFX/generated/gui_generated/src/containers/hr_permin_containerBase.o \
+./TouchGFX/generated/gui_generated/src/containers/main_containerBase.o \
+./TouchGFX/generated/gui_generated/src/containers/mini_time_containerBase.o \
+./TouchGFX/generated/gui_generated/src/containers/skintemp_permin_containerBase.o 
 
 CPP_DEPS += \
-./TouchGFX/generated/gui_generated/src/containers/setting_screenontime_notselectedBase.d \
-./TouchGFX/generated/gui_generated/src/containers/setting_screenontime_selectedBase.d \
-./TouchGFX/generated/gui_generated/src/containers/setting_stimul_strength_notselectedBase.d \
-./TouchGFX/generated/gui_generated/src/containers/setting_stimul_strength_selectedBase.d \
-./TouchGFX/generated/gui_generated/src/containers/setting_stimul_time_notselectedBase.d \
-./TouchGFX/generated/gui_generated/src/containers/setting_stimul_time_selectedBase.d 
+./TouchGFX/generated/gui_generated/src/containers/cal_permin_containerBase.d \
+./TouchGFX/generated/gui_generated/src/containers/hr_permin_containerBase.d \
+./TouchGFX/generated/gui_generated/src/containers/main_containerBase.d \
+./TouchGFX/generated/gui_generated/src/containers/mini_time_containerBase.d \
+./TouchGFX/generated/gui_generated/src/containers/skintemp_permin_containerBase.d 
 
 
 # Each subdirectory must supply rules for building sources it contributes
@@ -36,7 +33,7 @@ TouchGFX/generated/gui_generated/src/containers/%.o TouchGFX/generated/gui_gener
 clean: clean-TouchGFX-2f-generated-2f-gui_generated-2f-src-2f-containers
 
 clean-TouchGFX-2f-generated-2f-gui_generated-2f-src-2f-containers:
-	-$(RM) ./TouchGFX/generated/gui_generated/src/containers/setting_screenontime_notselectedBase.cyclo ./TouchGFX/generated/gui_generated/src/containers/setting_screenontime_notselectedBase.d ./TouchGFX/generated/gui_generated/src/containers/setting_screenontime_notselectedBase.o ./TouchGFX/generated/gui_generated/src/containers/setting_screenontime_notselectedBase.su ./TouchGFX/generated/gui_generated/src/containers/setting_screenontime_selectedBase.cyclo ./TouchGFX/generated/gui_generated/src/containers/setting_screenontime_selectedBase.d ./TouchGFX/generated/gui_generated/src/containers/setting_screenontime_selectedBase.o ./TouchGFX/generated/gui_generated/src/containers/setting_screenontime_selectedBase.su ./TouchGFX/generated/gui_generated/src/containers/setting_stimul_strength_notselectedBase.cyclo ./TouchGFX/generated/gui_generated/src/containers/setting_stimul_strength_notselectedBase.d ./TouchGFX/generated/gui_generated/src/containers/setting_stimul_strength_notselectedBase.o ./TouchGFX/generated/gui_generated/src/containers/setting_stimul_strength_notselectedBase.su ./TouchGFX/generated/gui_generated/src/containers/setting_stimul_strength_selectedBase.cyclo ./TouchGFX/generated/gui_generated/src/containers/setting_stimul_strength_selectedBase.d ./TouchGFX/generated/gui_generated/src/containers/setting_stimul_strength_selectedBase.o ./TouchGFX/generated/gui_generated/src/containers/setting_stimul_strength_selectedBase.su ./TouchGFX/generated/gui_generated/src/containers/setting_stimul_time_notselectedBase.cyclo ./TouchGFX/generated/gui_generated/src/containers/setting_stimul_time_notselectedBase.d ./TouchGFX/generated/gui_generated/src/containers/setting_stimul_time_notselectedBase.o ./TouchGFX/generated/gui_generated/src/containers/setting_stimul_time_notselectedBase.su ./TouchGFX/generated/gui_generated/src/containers/setting_stimul_time_selectedBase.cyclo ./TouchGFX/generated/gui_generated/src/containers/setting_stimul_time_selectedBase.d ./TouchGFX/generated/gui_generated/src/containers/setting_stimul_time_selectedBase.o ./TouchGFX/generated/gui_generated/src/containers/setting_stimul_time_selectedBase.su
+	-$(RM) ./TouchGFX/generated/gui_generated/src/containers/cal_permin_containerBase.cyclo ./TouchGFX/generated/gui_generated/src/containers/cal_permin_containerBase.d ./TouchGFX/generated/gui_generated/src/containers/cal_permin_containerBase.o ./TouchGFX/generated/gui_generated/src/containers/cal_permin_containerBase.su ./TouchGFX/generated/gui_generated/src/containers/hr_permin_containerBase.cyclo ./TouchGFX/generated/gui_generated/src/containers/hr_permin_containerBase.d ./TouchGFX/generated/gui_generated/src/containers/hr_permin_containerBase.o ./TouchGFX/generated/gui_generated/src/containers/hr_permin_containerBase.su ./TouchGFX/generated/gui_generated/src/containers/main_containerBase.cyclo ./TouchGFX/generated/gui_generated/src/containers/main_containerBase.d ./TouchGFX/generated/gui_generated/src/containers/main_containerBase.o ./TouchGFX/generated/gui_generated/src/containers/main_containerBase.su ./TouchGFX/generated/gui_generated/src/containers/mini_time_containerBase.cyclo ./TouchGFX/generated/gui_generated/src/containers/mini_time_containerBase.d ./TouchGFX/generated/gui_generated/src/containers/mini_time_containerBase.o ./TouchGFX/generated/gui_generated/src/containers/mini_time_containerBase.su ./TouchGFX/generated/gui_generated/src/containers/skintemp_permin_containerBase.cyclo ./TouchGFX/generated/gui_generated/src/containers/skintemp_permin_containerBase.d ./TouchGFX/generated/gui_generated/src/containers/skintemp_permin_containerBase.o ./TouchGFX/generated/gui_generated/src/containers/skintemp_permin_containerBase.su
 
 .PHONY: clean-TouchGFX-2f-generated-2f-gui_generated-2f-src-2f-containers
 

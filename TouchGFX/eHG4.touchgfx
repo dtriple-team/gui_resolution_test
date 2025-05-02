@@ -2,176 +2,1578 @@
   "Application": {
     "Screens": [
       {
-        "Name": "Screen1",
+        "Name": "Main",
         "Components": [
           {
-            "Type": "Button",
-            "Name": "button1",
+            "Type": "Image",
+            "Name": "background",
             "Width": 240,
-            "Height": 281,
-            "Pressed": "watch_mian1.png",
-            "Released": "watch_mian1.png"
+            "Height": 280,
+            "RelativeFilename": "background.png"
+          },
+          {
+            "Type": "CustomContainerInstance",
+            "Name": "main_container1",
+            "X": 21,
+            "Y": 35,
+            "Width": 198,
+            "Height": 88,
+            "CustomContainerDefinitionName": "main_container"
+          },
+          {
+            "Type": "CustomContainerInstance",
+            "Name": "mini_time_container1",
+            "X": 16,
+            "Y": 8,
+            "Width": 209,
+            "Height": 17,
+            "CustomContainerDefinitionName": "mini_time_container"
+          },
+          {
+            "Type": "Button",
+            "Name": "main_cal_btn",
+            "X": 15,
+            "Y": 140,
+            "Width": 66,
+            "Height": 104,
+            "Pressed": "main_grey_btn.png",
+            "Released": "main_grey_btn.png"
+          },
+          {
+            "Type": "Image",
+            "Name": "main_cal_icon",
+            "X": 38,
+            "Y": 182,
+            "Width": 21,
+            "Height": 20,
+            "RelativeFilename": "main_cal_icon.png"
+          },
+          {
+            "Type": "TextArea",
+            "Name": "main_cal_btn_text",
+            "X": 15,
+            "Y": 212,
+            "Width": 66,
+            "Height": 15,
+            "TextId": "__SingleUse_W4NE",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 255,
+              "Green": 206,
+              "Blue": 10
+            }
+          },
+          {
+            "Type": "TextArea",
+            "Name": "burntCalories_text",
+            "X": 15,
+            "Y": 152,
+            "Width": 66,
+            "Height": 18,
+            "TextId": "bCal_today",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "Wildcard1": {
+              "TextId": "bCal_day",
+              "UseBuffer": true,
+              "BufferSize": 7
+            }
+          },
+          {
+            "Type": "Button",
+            "Name": "main_hr_btn",
+            "X": 87,
+            "Y": 140,
+            "Width": 66,
+            "Height": 104,
+            "Pressed": "main_grey_btn.png",
+            "Released": "main_grey_btn.png"
+          },
+          {
+            "Type": "Image",
+            "Name": "main_hr_icon",
+            "X": 110,
+            "Y": 182,
+            "Width": 20,
+            "Height": 20,
+            "RelativeFilename": "main_hr_icon.png"
+          },
+          {
+            "Type": "TextArea",
+            "Name": "main_hr_btn_text",
+            "X": 87,
+            "Y": 212,
+            "Width": 66,
+            "Height": 15,
+            "TextId": "__SingleUse_20BM",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 241,
+              "Green": 105,
+              "Blue": 232
+            }
+          },
+          {
+            "Type": "TextArea",
+            "Name": "heartrate_text",
+            "X": 87,
+            "Y": 152,
+            "Width": 66,
+            "Height": 18,
+            "TextId": "heartrate_now",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "Wildcard1": {
+              "TextId": "heartrate",
+              "UseBuffer": true,
+              "BufferSize": 4
+            }
+          },
+          {
+            "Type": "Button",
+            "Name": "main_feelslike_btn",
+            "X": 159,
+            "Y": 140,
+            "Width": 66,
+            "Height": 104,
+            "Pressed": "main_grey_btn.png",
+            "Released": "main_grey_btn.png"
+          },
+          {
+            "Type": "Image",
+            "Name": "main_feelslike_red_icon",
+            "X": 182,
+            "Y": 182,
+            "Width": 21,
+            "Height": 20,
+            "RelativeFilename": "main_feelslike_red_icon.png"
+          },
+          {
+            "Type": "TextArea",
+            "Name": "main_feelslike_btn_text",
+            "X": 159,
+            "Y": 212,
+            "Width": 66,
+            "Height": 15,
+            "TextId": "__SingleUse_4KYX",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 255,
+              "Green": 84,
+              "Blue": 65
+            }
+          },
+          {
+            "Type": "TextArea",
+            "Name": "feelslike_text",
+            "X": 159,
+            "Y": 152,
+            "Width": 66,
+            "Height": 18,
+            "TextId": "feelslike_now",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "Wildcard1": {
+              "TextId": "feelslike",
+              "UseBuffer": true,
+              "BufferSize": 3
+            }
+          },
+          {
+            "Type": "Image",
+            "Name": "main_under_green_box",
+            "X": 15,
+            "Y": 250,
+            "Width": 210,
+            "Height": 25,
+            "RelativeFilename": "main_under_green_box.png"
+          },
+          {
+            "Type": "TextArea",
+            "Name": "textArea1",
+            "X": 15,
+            "Y": 255,
+            "Width": 210,
+            "Height": 15,
+            "TextId": "__SingleUse_TDJG",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 16,
+              "Green": 15,
+              "Blue": 15
+            }
+          },
+          {
+            "Type": "Button",
+            "Name": "back_btn",
+            "X": 16,
+            "Y": 8,
+            "Width": 30,
+            "Height": 17,
+            "Pressed": "back_btn.png",
+            "Released": "back_btn.png"
+          },
+          {
+            "Type": "TextArea",
+            "Name": "back_text",
+            "X": 16,
+            "Y": 11,
+            "Width": 30,
+            "Height": 15,
+            "TextId": "__SingleUse_S06I",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            }
           }
         ],
         "Interactions": [
           {
-            "InteractionName": "Interaction1",
+            "InteractionName": "gotoCalPermin",
             "Trigger": {
-              "Type": "TriggerOnEveryTick",
-              "TickCount": 6000
+              "Type": "TriggerClicked",
+              "TriggerComponent": "main_cal_btn"
             },
             "Action": {
               "Type": "ActionGotoScreen",
               "ScreenTransitionType": "ScreenTransitionNone",
-              "ActionComponent": "Screen1_1"
+              "ActionComponent": "Cal_permin"
+            }
+          },
+          {
+            "InteractionName": "gotoHrPermin",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "main_hr_btn"
+            },
+            "Action": {
+              "Type": "ActionGotoScreen",
+              "ScreenTransitionType": "ScreenTransitionNone",
+              "ActionComponent": "Hr_permin"
+            }
+          },
+          {
+            "InteractionName": "gotoSkintempPermin",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "main_feelslike_btn"
+            },
+            "Action": {
+              "Type": "ActionGotoScreen",
+              "ScreenTransitionType": "ScreenTransitionNone",
+              "ActionComponent": "Skintemp_permin"
             }
           }
         ]
       },
       {
-        "Name": "Screen1_1",
+        "Name": "Skintemp_permin",
         "Components": [
           {
-            "Type": "Button",
-            "Name": "button1",
-            "Y": -1,
+            "Type": "Image",
+            "Name": "background",
             "Width": 240,
-            "Height": 281,
-            "Pressed": "watch_2.png",
-            "Released": "watch_2.png"
+            "Height": 280,
+            "RelativeFilename": "background.png"
+          },
+          {
+            "Type": "CustomContainerInstance",
+            "Name": "mini_time_container1",
+            "X": 16,
+            "Y": 8,
+            "Width": 209,
+            "Height": 17,
+            "CustomContainerDefinitionName": "mini_time_container"
+          },
+          {
+            "Type": "TextArea",
+            "Name": "skintemp_permin",
+            "Y": 35,
+            "Width": 240,
+            "Height": 17,
+            "TextId": "__SingleUse_BI8R",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            }
+          },
+          {
+            "Type": "Image",
+            "Name": "skintemp_permin_icon",
+            "X": 82,
+            "Y": 67,
+            "Width": 76,
+            "Height": 75,
+            "RelativeFilename": "skintemp_permin_icon.png"
+          },
+          {
+            "Type": "CustomContainerInstance",
+            "Name": "skintemp_permin_container1",
+            "X": 35,
+            "Y": 159,
+            "Width": 170,
+            "Height": 28,
+            "CustomContainerDefinitionName": "skintemp_permin_container"
+          },
+          {
+            "Type": "Image",
+            "Name": "permin_detail_box",
+            "X": 9,
+            "Y": 202,
+            "Width": 222,
+            "Height": 63,
+            "RelativeFilename": "permin_detail_box.png"
+          },
+          {
+            "Type": "TextArea",
+            "Name": "today",
+            "X": 172,
+            "Y": 211,
+            "Width": 43,
+            "Height": 15,
+            "TextId": "__SingleUse_0GAR",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 199,
+              "Green": 199,
+              "Blue": 199
+            },
+            "AutoSize": true
+          },
+          {
+            "Type": "TextArea",
+            "Name": "highestSkinTemp_text",
+            "X": 172,
+            "Y": 230,
+            "Width": 43,
+            "Height": 23,
+            "TextId": "h_st_today",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "Wildcard1": {
+              "TextId": "h_st",
+              "UseBuffer": true,
+              "BufferSize": 5
+            }
+          },
+          {
+            "Type": "TextArea",
+            "Name": "highest",
+            "X": 129,
+            "Y": 238,
+            "Width": 40,
+            "Height": 15,
+            "TextId": "__SingleUse_FWLV",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "AutoSize": true
+          },
+          {
+            "Type": "TextArea",
+            "Name": "lowestSkinTemp_text",
+            "X": 85,
+            "Y": 230,
+            "Width": 43,
+            "Height": 23,
+            "TextId": "L_st_today",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "Wildcard1": {
+              "TextId": "l_st",
+              "UseBuffer": true,
+              "BufferSize": 5
+            }
+          },
+          {
+            "Type": "TextArea",
+            "Name": "lowest",
+            "X": 62,
+            "Y": 238,
+            "Width": 20,
+            "Height": 15,
+            "TextId": "__SingleUse_I4GD",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "AutoSize": true
+          },
+          {
+            "Type": "Button",
+            "Name": "back_btn",
+            "X": 16,
+            "Y": 8,
+            "Width": 30,
+            "Height": 17,
+            "Pressed": "back_btn.png",
+            "Released": "back_btn.png"
+          },
+          {
+            "Type": "TextArea",
+            "Name": "back_text",
+            "X": 16,
+            "Y": 11,
+            "Width": 30,
+            "Height": 15,
+            "TextId": "__SingleUse_C3RW",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            }
           }
         ],
         "Interactions": [
           {
-            "InteractionName": "Interaction1",
+            "InteractionName": "gotoMain",
             "Trigger": {
-              "Type": "TriggerOnEveryTick",
-              "TickCount": 6000
+              "Type": "TriggerClicked",
+              "TriggerComponent": "back_btn"
             },
             "Action": {
               "Type": "ActionGotoScreen",
               "ScreenTransitionType": "ScreenTransitionNone",
-              "ActionComponent": "Screen1"
+              "ActionComponent": "Main"
             }
           }
         ]
+      },
+      {
+        "Name": "Hr_permin",
+        "Components": [
+          {
+            "Type": "Image",
+            "Name": "background",
+            "Width": 240,
+            "Height": 280,
+            "RelativeFilename": "background.png"
+          },
+          {
+            "Type": "CustomContainerInstance",
+            "Name": "mini_time_container1",
+            "X": 16,
+            "Y": 8,
+            "Width": 209,
+            "Height": 17,
+            "CustomContainerDefinitionName": "mini_time_container"
+          },
+          {
+            "Type": "TextArea",
+            "Name": "hr_permin",
+            "Y": 35,
+            "Width": 240,
+            "Height": 17,
+            "TextId": "__SingleUse_960Q",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            }
+          },
+          {
+            "Type": "Image",
+            "Name": "hr_permin_icon",
+            "X": 82,
+            "Y": 67,
+            "Width": 76,
+            "Height": 75,
+            "RelativeFilename": "hr_permin_icon.png"
+          },
+          {
+            "Type": "CustomContainerInstance",
+            "Name": "hr_permin_container1",
+            "X": 35,
+            "Y": 159,
+            "Width": 170,
+            "Height": 28,
+            "CustomContainerDefinitionName": "hr_permin_container"
+          },
+          {
+            "Type": "Image",
+            "Name": "permin_detail_box",
+            "X": 9,
+            "Y": 202,
+            "Width": 222,
+            "Height": 63,
+            "RelativeFilename": "permin_detail_box.png"
+          },
+          {
+            "Type": "TextArea",
+            "Name": "today",
+            "X": 172,
+            "Y": 211,
+            "Width": 43,
+            "Height": 15,
+            "TextId": "__SingleUse_PWTE",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 199,
+              "Green": 199,
+              "Blue": 199
+            },
+            "AutoSize": true
+          },
+          {
+            "Type": "TextArea",
+            "Name": "highestHr_text",
+            "X": 172,
+            "Y": 230,
+            "Width": 43,
+            "Height": 23,
+            "TextId": "h_hr_today",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "Wildcard1": {
+              "TextId": "h_hr",
+              "UseBuffer": true,
+              "BufferSize": 4
+            }
+          },
+          {
+            "Type": "TextArea",
+            "Name": "highest",
+            "X": 132,
+            "Y": 238,
+            "Width": 40,
+            "Height": 15,
+            "TextId": "__SingleUse_BD3M",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "AutoSize": true
+          },
+          {
+            "Type": "TextArea",
+            "Name": "lowestHr_text",
+            "X": 89,
+            "Y": 230,
+            "Width": 43,
+            "Height": 23,
+            "TextId": "l_hr_today",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "Wildcard1": {
+              "TextId": "l_hr",
+              "UseBuffer": true,
+              "BufferSize": 4
+            }
+          },
+          {
+            "Type": "TextArea",
+            "Name": "lowest",
+            "X": 69,
+            "Y": 238,
+            "Width": 20,
+            "Height": 15,
+            "TextId": "__SingleUse_RQEZ",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "AutoSize": true
+          },
+          {
+            "Type": "Button",
+            "Name": "back_btn",
+            "X": 16,
+            "Y": 8,
+            "Width": 30,
+            "Height": 17,
+            "Pressed": "back_btn.png",
+            "Released": "back_btn.png"
+          },
+          {
+            "Type": "TextArea",
+            "Name": "back_text",
+            "X": 16,
+            "Y": 11,
+            "Width": 30,
+            "Height": 15,
+            "TextId": "__SingleUse_3EK0",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            }
+          }
+        ],
+        "Interactions": [
+          {
+            "InteractionName": "gotoMain",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "back_btn"
+            },
+            "Action": {
+              "Type": "ActionGotoScreen",
+              "ScreenTransitionType": "ScreenTransitionNone",
+              "ActionComponent": "Main"
+            }
+          }
+        ]
+      },
+      {
+        "Name": "Cal_permin",
+        "Components": [
+          {
+            "Type": "Image",
+            "Name": "background",
+            "Width": 240,
+            "Height": 280,
+            "RelativeFilename": "background.png"
+          },
+          {
+            "Type": "CustomContainerInstance",
+            "Name": "mini_time_container1",
+            "X": 16,
+            "Y": 8,
+            "Width": 209,
+            "Height": 17,
+            "CustomContainerDefinitionName": "mini_time_container"
+          },
+          {
+            "Type": "TextArea",
+            "Name": "burntCalories_permin",
+            "Y": 35,
+            "Width": 240,
+            "Height": 17,
+            "TextId": "bCal_permin_label",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            }
+          },
+          {
+            "Type": "Image",
+            "Name": "cal_permin_icon",
+            "X": 82,
+            "Y": 67,
+            "Width": 76,
+            "Height": 75,
+            "RelativeFilename": "cal_permin_icon.png"
+          },
+          {
+            "Type": "CustomContainerInstance",
+            "Name": "cal_permin_container1",
+            "X": 35,
+            "Y": 159,
+            "Width": 170,
+            "Height": 28,
+            "CustomContainerDefinitionName": "cal_permin_container"
+          },
+          {
+            "Type": "Image",
+            "Name": "permin_detail_box",
+            "X": 9,
+            "Y": 202,
+            "Width": 222,
+            "Height": 63,
+            "RelativeFilename": "permin_detail_box.png"
+          },
+          {
+            "Type": "TextArea",
+            "Name": "today",
+            "X": 172,
+            "Y": 211,
+            "Width": 43,
+            "Height": 15,
+            "TextId": "__SingleUse_2BU3",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 199,
+              "Green": 199,
+              "Blue": 199
+            },
+            "AutoSize": true
+          },
+          {
+            "Type": "TextArea",
+            "Name": "cal_unit",
+            "X": 190,
+            "Y": 239,
+            "Width": 25,
+            "Height": 15,
+            "TextId": "__SingleUse_7N26",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "AutoSize": true
+          },
+          {
+            "Type": "TextArea",
+            "Name": "burntCalories_text",
+            "X": 9,
+            "Y": 231,
+            "Width": 175,
+            "Height": 23,
+            "TextId": "bCal_today_detail",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "Wildcard1": {
+              "TextId": "bCal_day",
+              "UseBuffer": true,
+              "BufferSize": 7
+            }
+          },
+          {
+            "Type": "Button",
+            "Name": "back_btn",
+            "X": 16,
+            "Y": 8,
+            "Width": 30,
+            "Height": 17,
+            "Pressed": "back_btn.png",
+            "Released": "back_btn.png"
+          },
+          {
+            "Type": "TextArea",
+            "Name": "back_text",
+            "X": 16,
+            "Y": 11,
+            "Width": 30,
+            "Height": 15,
+            "TextId": "__SingleUse_MWMK",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            }
+          }
+        ],
+        "Interactions": [
+          {
+            "InteractionName": "gotoMain",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "back_btn"
+            },
+            "Action": {
+              "Type": "ActionGotoScreen",
+              "ScreenTransitionType": "ScreenTransitionNone",
+              "ActionComponent": "Main"
+            }
+          }
+        ]
+      },
+      {
+        "Name": "Measure_hr",
+        "Components": [
+          {
+            "Type": "Image",
+            "Name": "background",
+            "Width": 240,
+            "Height": 280,
+            "RelativeFilename": "background.png"
+          },
+          {
+            "Type": "CustomContainerInstance",
+            "Name": "mini_time_container1",
+            "X": 16,
+            "Y": 8,
+            "Width": 209,
+            "Height": 17,
+            "CustomContainerDefinitionName": "mini_time_container"
+          },
+          {
+            "Type": "TextArea",
+            "Name": "hr_measure",
+            "Y": 35,
+            "Width": 240,
+            "Height": 17,
+            "TextId": "__SingleUse_XY52",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            }
+          },
+          {
+            "Type": "Image",
+            "Name": "hr_permin_icon",
+            "X": 82,
+            "Y": 67,
+            "Width": 76,
+            "Height": 75,
+            "RelativeFilename": "hr_permin_icon.png"
+          },
+          {
+            "Type": "Button",
+            "Name": "button1",
+            "X": 22,
+            "Y": 212,
+            "Width": 196,
+            "Height": 46,
+            "Pressed": "measure_hr_btn.png",
+            "Released": "measure_hr_btn.png"
+          },
+          {
+            "Type": "TextArea",
+            "Name": "textArea1",
+            "X": 46,
+            "Y": 162,
+            "Width": 130,
+            "Height": 16,
+            "TextId": "__SingleUse_Y7J7",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "AutoSize": true
+          },
+          {
+            "Type": "Image",
+            "Name": "image1",
+            "X": 24,
+            "Y": 163,
+            "Width": 14,
+            "Height": 14,
+            "RelativeFilename": "measure_hr_check_icon.png"
+          },
+          {
+            "Type": "Image",
+            "Name": "image1_1",
+            "X": 24,
+            "Y": 188,
+            "Width": 14,
+            "Height": 14,
+            "RelativeFilename": "measure_hr_check_icon.png"
+          },
+          {
+            "Type": "TextArea",
+            "Name": "textArea2",
+            "X": 46,
+            "Y": 187,
+            "Width": 163,
+            "Height": 16,
+            "TextId": "__SingleUse_U4SV",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "AutoSize": true
+          },
+          {
+            "Type": "TextArea",
+            "Name": "textArea3",
+            "X": 22,
+            "Y": 226,
+            "Width": 196,
+            "Height": 18,
+            "TextId": "__SingleUse_OZ4Y",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            }
+          },
+          {
+            "Type": "Button",
+            "Name": "back_btn",
+            "X": 16,
+            "Y": 8,
+            "Width": 30,
+            "Height": 17,
+            "Pressed": "back_btn.png",
+            "Released": "back_btn.png"
+          },
+          {
+            "Type": "TextArea",
+            "Name": "back_text",
+            "X": 16,
+            "Y": 11,
+            "Width": 30,
+            "Height": 15,
+            "TextId": "__SingleUse_6D59",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            }
+          }
+        ],
+        "Interactions": []
+      },
+      {
+        "Name": "Enter_user_info",
+        "Components": [
+          {
+            "Type": "Image",
+            "Name": "background",
+            "Width": 240,
+            "Height": 280,
+            "RelativeFilename": "background.png"
+          },
+          {
+            "Type": "ScrollableContainer",
+            "Name": "userInfo_scrollableContainer",
+            "Y": 35,
+            "Width": 240,
+            "Height": 245,
+            "VerticalScrollEnabled": true,
+            "ScrollbarsVisible": true,
+            "ScrollbarsVisibleOnPressed": true,
+            "ScrollbarsColor": {
+              "Red": 96,
+              "Green": 96,
+              "Blue": 96
+            },
+            "ScrollbarsAlpha": 255,
+            "Components": [
+              {
+                "Type": "TextArea",
+                "Name": "user_info_text",
+                "X": 70,
+                "Width": 100,
+                "Height": 17,
+                "TextId": "__SingleUse_6F78",
+                "TextRotation": "0",
+                "Color": {
+                  "Red": 255,
+                  "Green": 255,
+                  "Blue": 255
+                }
+              },
+              {
+                "Type": "TextArea",
+                "Name": "gender_label",
+                "X": 12,
+                "Y": 33,
+                "Width": 20,
+                "Height": 15,
+                "TextId": "__SingleUse_L6Q6",
+                "TextRotation": "0",
+                "Color": {
+                  "Red": 199,
+                  "Green": 199,
+                  "Blue": 199
+                },
+                "AutoSize": true
+              },
+              {
+                "Type": "Image",
+                "Name": "gender_box",
+                "X": 9,
+                "Y": 56,
+                "Width": 222,
+                "Height": 51,
+                "RelativeFilename": "userinfo_gender_box.png"
+              },
+              {
+                "Type": "RadioButton",
+                "Name": "male_radiobtn",
+                "X": 27,
+                "Y": 71,
+                "Width": 20,
+                "Height": 20,
+                "Selected": true,
+                "FileNameSelected": "userinfo_radiobtn_on.png",
+                "FileNameSelectedPressed": "userinfo_radiobtn_on.png",
+                "FileNameUnselected": "userinfo_radiobtn_off.png",
+                "FileNameUnselectedPressed": "userinfo_radiobtn_off.png",
+                "RadioButtonGroup": "radioButtonGroup1"
+              },
+              {
+                "Type": "TextArea",
+                "Name": "male_text",
+                "X": 55,
+                "Y": 72,
+                "Width": 26,
+                "Height": 18,
+                "TextId": "__SingleUse_9FRA",
+                "TextRotation": "0",
+                "Color": {
+                  "Red": 255,
+                  "Green": 255,
+                  "Blue": 255
+                },
+                "AutoSize": true
+              },
+              {
+                "Type": "RadioButton",
+                "Name": "female_radiobtn",
+                "X": 113,
+                "Y": 71,
+                "Width": 20,
+                "Height": 20,
+                "FileNameSelected": "userinfo_radiobtn_on.png",
+                "FileNameSelectedPressed": "userinfo_radiobtn_on.png",
+                "FileNameUnselected": "userinfo_radiobtn_off.png",
+                "FileNameUnselectedPressed": "userinfo_radiobtn_off.png",
+                "RadioButtonGroup": "radioButtonGroup1"
+              },
+              {
+                "Type": "TextArea",
+                "Name": "female_text",
+                "X": 141,
+                "Y": 72,
+                "Width": 26,
+                "Height": 18,
+                "TextId": "__SingleUse_5M4F",
+                "TextRotation": "0",
+                "Color": {
+                  "Red": 255,
+                  "Green": 255,
+                  "Blue": 255
+                },
+                "AutoSize": true
+              },
+              {
+                "Type": "TextArea",
+                "Name": "age_label",
+                "X": 12,
+                "Y": 123,
+                "Width": 30,
+                "Height": 15,
+                "TextId": "__SingleUse_6HL9",
+                "TextRotation": "0",
+                "Color": {
+                  "Red": 199,
+                  "Green": 199,
+                  "Blue": 199
+                },
+                "AutoSize": true
+              },
+              {
+                "Type": "Image",
+                "Name": "age_box",
+                "X": 9,
+                "Y": 146,
+                "Width": 222,
+                "Height": 143,
+                "RelativeFilename": "userinfo_age_box.png"
+              },
+              {
+                "Type": "RadioButton",
+                "Name": "age_radiobtn_1",
+                "X": 27,
+                "Y": 161,
+                "Width": 20,
+                "Height": 20,
+                "Selected": true,
+                "FileNameSelected": "userinfo_radiobtn_on.png",
+                "FileNameSelectedPressed": "userinfo_radiobtn_on.png",
+                "FileNameUnselected": "userinfo_radiobtn_off.png",
+                "FileNameUnselectedPressed": "userinfo_radiobtn_off.png",
+                "RadioButtonGroup": "radioButtonGroup2"
+              },
+              {
+                "Type": "TextArea",
+                "Name": "age_text_1",
+                "X": 55,
+                "Y": 162,
+                "Width": 29,
+                "Height": 18,
+                "TextId": "__SingleUse_J9AI",
+                "TextRotation": "0",
+                "Color": {
+                  "Red": 255,
+                  "Green": 255,
+                  "Blue": 255
+                },
+                "AutoSize": true
+              },
+              {
+                "Type": "RadioButton",
+                "Name": "age_radiobtn_2",
+                "X": 109,
+                "Y": 161,
+                "Width": 20,
+                "Height": 20,
+                "FileNameSelected": "userinfo_radiobtn_on.png",
+                "FileNameSelectedPressed": "userinfo_radiobtn_on.png",
+                "FileNameUnselected": "userinfo_radiobtn_off.png",
+                "FileNameUnselectedPressed": "userinfo_radiobtn_off.png",
+                "RadioButtonGroup": "radioButtonGroup2"
+              },
+              {
+                "Type": "TextArea",
+                "Name": "age_text_2",
+                "X": 137,
+                "Y": 162,
+                "Width": 31,
+                "Height": 18,
+                "TextId": "__SingleUse_ZHO2",
+                "TextRotation": "0",
+                "Color": {
+                  "Red": 255,
+                  "Green": 255,
+                  "Blue": 255
+                },
+                "AutoSize": true
+              },
+              {
+                "Type": "RadioButton",
+                "Name": "age_radiobtn_3",
+                "X": 27,
+                "Y": 207,
+                "Width": 20,
+                "Height": 20,
+                "FileNameSelected": "userinfo_radiobtn_on.png",
+                "FileNameSelectedPressed": "userinfo_radiobtn_on.png",
+                "FileNameUnselected": "userinfo_radiobtn_off.png",
+                "FileNameUnselectedPressed": "userinfo_radiobtn_off.png",
+                "RadioButtonGroup": "radioButtonGroup2"
+              },
+              {
+                "Type": "TextArea",
+                "Name": "age_text_3",
+                "X": 55,
+                "Y": 208,
+                "Width": 51,
+                "Height": 18,
+                "TextId": "__SingleUse_OS5C",
+                "TextRotation": "0",
+                "Color": {
+                  "Red": 255,
+                  "Green": 255,
+                  "Blue": 255
+                },
+                "AutoSize": true
+              },
+              {
+                "Type": "RadioButton",
+                "Name": "age_radiobtn_4",
+                "X": 131,
+                "Y": 207,
+                "Width": 20,
+                "Height": 20,
+                "FileNameSelected": "userinfo_radiobtn_on.png",
+                "FileNameSelectedPressed": "userinfo_radiobtn_on.png",
+                "FileNameUnselected": "userinfo_radiobtn_off.png",
+                "FileNameUnselectedPressed": "userinfo_radiobtn_off.png",
+                "RadioButtonGroup": "radioButtonGroup2"
+              },
+              {
+                "Type": "TextArea",
+                "Name": "age_text_4",
+                "X": 159,
+                "Y": 208,
+                "Width": 50,
+                "Height": 18,
+                "TextId": "__SingleUse_7V15",
+                "TextRotation": "0",
+                "Color": {
+                  "Red": 255,
+                  "Green": 255,
+                  "Blue": 255
+                },
+                "AutoSize": true
+              },
+              {
+                "Type": "RadioButton",
+                "Name": "age_radiobtn_5",
+                "X": 27,
+                "Y": 254,
+                "Width": 20,
+                "Height": 20,
+                "FileNameSelected": "userinfo_radiobtn_on.png",
+                "FileNameSelectedPressed": "userinfo_radiobtn_on.png",
+                "FileNameUnselected": "userinfo_radiobtn_off.png",
+                "FileNameUnselectedPressed": "userinfo_radiobtn_off.png",
+                "RadioButtonGroup": "radioButtonGroup2"
+              },
+              {
+                "Type": "TextArea",
+                "Name": "age_text_5",
+                "X": 55,
+                "Y": 255,
+                "Width": 60,
+                "Height": 18,
+                "TextId": "__SingleUse_4PEW",
+                "TextRotation": "0",
+                "Color": {
+                  "Red": 255,
+                  "Green": 255,
+                  "Blue": 255
+                },
+                "AutoSize": true
+              },
+              {
+                "Type": "TextArea",
+                "Name": "healthcondition_label",
+                "X": 12,
+                "Y": 305,
+                "Width": 40,
+                "Height": 15,
+                "TextId": "__SingleUse_GYRO",
+                "TextRotation": "0",
+                "Color": {
+                  "Red": 199,
+                  "Green": 199,
+                  "Blue": 199
+                },
+                "AutoSize": true
+              },
+              {
+                "Type": "Image",
+                "Name": "healthcondition_box",
+                "X": 9,
+                "Y": 328,
+                "Width": 222,
+                "Height": 150,
+                "RelativeFilename": "userinfo_healthcondition_box.png"
+              },
+              {
+                "Type": "TextArea",
+                "Name": "hc_text_1",
+                "X": 27,
+                "Y": 346,
+                "Width": 52,
+                "Height": 18,
+                "TextId": "__SingleUse_RPNQ",
+                "TextRotation": "0",
+                "Color": {
+                  "Red": 255,
+                  "Green": 255,
+                  "Blue": 255
+                },
+                "AutoSize": true
+              },
+              {
+                "Type": "ToggleButton",
+                "Name": "hc_togglebtn_1",
+                "X": 174,
+                "Y": 343,
+                "Width": 41,
+                "Height": 24,
+                "Pressed": "userinfo_togglebtn_on.png",
+                "Released": "userinfo_togglebtn_off.png"
+              },
+              {
+                "Type": "TextArea",
+                "Name": "hc_text_2",
+                "X": 27,
+                "Y": 394,
+                "Width": 52,
+                "Height": 18,
+                "TextId": "__SingleUse_PTZ6",
+                "TextRotation": "0",
+                "Color": {
+                  "Red": 255,
+                  "Green": 255,
+                  "Blue": 255
+                },
+                "AutoSize": true
+              },
+              {
+                "Type": "ToggleButton",
+                "Name": "hc_togglebtn_2",
+                "X": 174,
+                "Y": 391,
+                "Width": 41,
+                "Height": 24,
+                "Pressed": "userinfo_togglebtn_on.png",
+                "Released": "userinfo_togglebtn_off.png"
+              },
+              {
+                "Type": "TextArea",
+                "Name": "hc_text_3",
+                "X": 27,
+                "Y": 442,
+                "Width": 52,
+                "Height": 18,
+                "TextId": "__SingleUse_8LE9",
+                "TextRotation": "0",
+                "Color": {
+                  "Red": 255,
+                  "Green": 255,
+                  "Blue": 255
+                },
+                "AutoSize": true
+              },
+              {
+                "Type": "ToggleButton",
+                "Name": "hc_togglebtn_3",
+                "X": 174,
+                "Y": 439,
+                "Width": 41,
+                "Height": 24,
+                "Pressed": "userinfo_togglebtn_on.png",
+                "Released": "userinfo_togglebtn_off.png"
+              },
+              {
+                "Type": "Box",
+                "Name": "box1",
+                "X": 9,
+                "Y": 478,
+                "Width": 222,
+                "Height": 15
+              }
+            ]
+          },
+          {
+            "Type": "CustomContainerInstance",
+            "Name": "mini_time_container1",
+            "X": 16,
+            "Y": 8,
+            "Width": 209,
+            "Height": 17,
+            "CustomContainerDefinitionName": "mini_time_container"
+          },
+          {
+            "Type": "Button",
+            "Name": "back_btn",
+            "X": 16,
+            "Y": 8,
+            "Width": 30,
+            "Height": 17,
+            "Pressed": "back_btn.png",
+            "Released": "back_btn.png"
+          },
+          {
+            "Type": "TextArea",
+            "Name": "back_text",
+            "X": 16,
+            "Y": 11,
+            "Width": 30,
+            "Height": 15,
+            "TextId": "__SingleUse_5QL9",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            }
+          }
+        ],
+        "Interactions": []
       }
     ],
     "CustomContainerDefinitions": [
       {
-        "Name": "setting_stimul_strength_notselected",
-        "Width": 197,
-        "Height": 46,
+        "Name": "main_container",
+        "X": 21,
+        "Y": 35,
+        "Width": 198,
+        "Height": 88,
         "Components": [
           {
-            "Type": "Box",
-            "Name": "box1",
-            "Width": 197,
-            "Height": 46
-          },
-          {
             "Type": "TextArea",
-            "Name": "textArea1",
-            "Width": 197,
-            "Height": 46,
-            "TextId": "__SingleUse_473P",
+            "Name": "monthDate_text",
+            "X": 124,
+            "Width": 36,
+            "Height": 15,
+            "TextId": "month_date",
             "TextRotation": "0",
             "Color": {
-              "Red": 118,
-              "Green": 118,
-              "Blue": 118
+              "Red": 199,
+              "Green": 199,
+              "Blue": 199
             },
+            "AutoSize": true,
             "Wildcard1": {
-              "TextId": "stimulstr_notSelected",
+              "TextId": "month",
               "UseBuffer": true,
-              "BufferSize": 2
-            }
-          }
-        ],
-        "Interactions": []
-      },
-      {
-        "Name": "setting_stimul_time_notselected",
-        "Width": 197,
-        "Height": 46,
-        "Components": [
-          {
-            "Type": "Box",
-            "Name": "box1",
-            "Width": 197,
-            "Height": 46
-          },
-          {
-            "Type": "TextArea",
-            "Name": "textArea1",
-            "Width": 197,
-            "Height": 46,
-            "TextId": "__SingleUse_OWA7",
-            "TextRotation": "0",
-            "Color": {
-              "Red": 118,
-              "Green": 118,
-              "Blue": 118
+              "BufferSize": 3
             },
-            "Wildcard1": {
-              "TextId": "stumultime_notSelected",
+            "Wildcard2": {
+              "TextId": "date",
               "UseBuffer": true,
               "BufferSize": 3
             }
-          }
-        ],
-        "Interactions": []
-      },
-      {
-        "Name": "setting_screenontime_notselected",
-        "Width": 197,
-        "Height": 46,
-        "Components": [
-          {
-            "Type": "Box",
-            "Name": "box1",
-            "Width": 197,
-            "Height": 46
           },
           {
             "Type": "TextArea",
-            "Name": "textArea1",
-            "Width": 197,
-            "Height": 46,
-            "TextId": "__SingleUse_K9CO",
+            "Name": "dayoftheWeek_text",
+            "X": 170,
+            "Width": 28,
+            "Height": 15,
+            "TextId": "dayofthe_week",
             "TextRotation": "0",
             "Color": {
-              "Red": 118,
-              "Green": 118,
-              "Blue": 118
+              "Red": 199,
+              "Green": 199,
+              "Blue": 199
             },
+            "AutoSize": true,
             "Wildcard1": {
-              "TextId": "notSelected",
+              "TextId": "day",
+              "UseBuffer": true,
+              "BufferSize": 4
+            }
+          },
+          {
+            "Type": "TextArea",
+            "Name": "temperature_text",
+            "X": 45,
+            "Y": 57,
+            "Width": 37,
+            "Height": 25,
+            "TextId": "temp_now",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "AutoSize": true,
+            "Wildcard1": {
+              "TextId": "temp",
               "UseBuffer": true,
               "BufferSize": 3
             }
+          },
+          {
+            "Type": "Image",
+            "Name": "main_temp_icon",
+            "X": 23,
+            "Y": 59,
+            "Width": 22,
+            "Height": 22,
+            "RelativeFilename": "main_temp_icon.png"
+          },
+          {
+            "Type": "Image",
+            "Name": "main_hum_icon",
+            "X": 110,
+            "Y": 59,
+            "Width": 22,
+            "Height": 22,
+            "RelativeFilename": "main_hum_icon.png"
+          },
+          {
+            "Type": "TextArea",
+            "Name": "humidity_text",
+            "X": 132,
+            "Y": 57,
+            "Width": 49,
+            "Height": 25,
+            "TextId": "hum_now",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "AutoSize": true,
+            "Wildcard1": {
+              "TextId": "hum",
+              "UseBuffer": true,
+              "BufferSize": 4
+            }
+          },
+          {
+            "Type": "DigitalClock",
+            "Name": "clock",
+            "X": 108,
+            "Y": 18,
+            "Width": 90,
+            "Height": 37,
+            "TextColor": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "TextId": "time_now",
+            "DisplayLeadingZeroForHourIndicator": true,
+            "InitialHour": 10,
+            "InitialMinute": 10
           }
         ],
         "Interactions": []
       },
       {
-        "Name": "setting_stimul_strength_selected",
-        "Width": 197,
-        "Height": 46,
+        "Name": "mini_time_container",
+        "X": 16,
+        "Y": 8,
+        "Width": 209,
+        "Height": 17,
         "Components": [
           {
-            "Type": "Box",
-            "Name": "box1",
-            "Width": 197,
-            "Height": 46
-          },
+            "Type": "DigitalClock",
+            "Name": "mini_clock",
+            "X": 104,
+            "Y": 4,
+            "Width": 105,
+            "Height": 15,
+            "TextColor": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "TextId": "miniTime_now",
+            "DisplayLeadingZeroForHourIndicator": true,
+            "InitialHour": 10,
+            "InitialMinute": 10
+          }
+        ],
+        "Interactions": []
+      },
+      {
+        "Name": "skintemp_permin_container",
+        "Width": 170,
+        "Height": 28,
+        "Components": [
           {
             "Type": "TextArea",
-            "Name": "textArea1",
-            "Y": 3,
-            "Width": 197,
-            "Height": 43,
-            "TextId": "__SingleUse_A1BP",
+            "Name": "skintemp_permin",
+            "X": 48,
+            "Width": 66,
+            "Height": 28,
+            "TextId": "skinTemp_permin",
             "TextRotation": "0",
             "Color": {
               "Red": 255,
@@ -179,32 +1581,42 @@
               "Blue": 255
             },
             "Wildcard1": {
-              "TextId": "stimulstr_selected",
+              "TextId": "skintemp_min",
               "UseBuffer": true,
-              "BufferSize": 2
+              "BufferSize": 5
             }
+          },
+          {
+            "Type": "TextArea",
+            "Name": "temp_unit",
+            "X": 115,
+            "Y": 14,
+            "Width": 14,
+            "Height": 15,
+            "TextId": "__SingleUse_L8VB",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "AutoSize": true
           }
         ],
         "Interactions": []
       },
       {
-        "Name": "setting_stimul_time_selected",
-        "Width": 197,
-        "Height": 46,
+        "Name": "hr_permin_container",
+        "Width": 170,
+        "Height": 28,
         "Components": [
           {
-            "Type": "Box",
-            "Name": "box1",
-            "Width": 197,
-            "Height": 46
-          },
-          {
             "Type": "TextArea",
-            "Name": "textArea1",
-            "Y": 3,
-            "Width": 197,
-            "Height": 43,
-            "TextId": "__SingleUse_P7GK",
+            "Name": "heartrate_permin",
+            "X": 37,
+            "Width": 66,
+            "Height": 28,
+            "TextId": "hr_permin",
             "TextRotation": "0",
             "Color": {
               "Red": 255,
@@ -212,32 +1624,42 @@
               "Blue": 255
             },
             "Wildcard1": {
-              "TextId": "stimultime_selected",
+              "TextId": "heartrate_min",
               "UseBuffer": true,
-              "BufferSize": 3
+              "BufferSize": 4
             }
+          },
+          {
+            "Type": "TextArea",
+            "Name": "hr_unit",
+            "X": 104,
+            "Y": 14,
+            "Width": 24,
+            "Height": 15,
+            "TextId": "__SingleUse_7P3H",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "AutoSize": true
           }
         ],
         "Interactions": []
       },
       {
-        "Name": "setting_screenontime_selected",
-        "Width": 197,
-        "Height": 46,
+        "Name": "cal_permin_container",
+        "Width": 170,
+        "Height": 28,
         "Components": [
           {
-            "Type": "Box",
-            "Name": "box1",
-            "Width": 197,
-            "Height": 46
-          },
-          {
             "Type": "TextArea",
-            "Name": "textArea1",
-            "Y": 3,
-            "Width": 197,
-            "Height": 43,
-            "TextId": "__SingleUse_3KO8",
+            "Name": "burntCalories_permin",
+            "X": 30,
+            "Width": 81,
+            "Height": 28,
+            "TextId": "bCal_permin",
             "TextRotation": "0",
             "Color": {
               "Red": 255,
@@ -245,10 +1667,26 @@
               "Blue": 255
             },
             "Wildcard1": {
-              "TextId": "selected",
+              "TextId": "bCal_min",
               "UseBuffer": true,
-              "BufferSize": 3
+              "BufferSize": 10
             }
+          },
+          {
+            "Type": "TextArea",
+            "Name": "cal_unit",
+            "X": 120,
+            "Y": 14,
+            "Width": 25,
+            "Height": 15,
+            "TextId": "__SingleUse_1UIV",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "AutoSize": true
           }
         ],
         "Interactions": []
@@ -260,7 +1698,7 @@
       "Height": 280
     },
     "SelectedColorDepth": 16,
-    "StartupScreenName": "Screen1",
+    "StartupScreenName": "Main",
     "SelectedStartupLanguage": "Korean",
     "TouchGfxPath": "../Middlewares/ST/touchgfx",
     "UIPath": ".",

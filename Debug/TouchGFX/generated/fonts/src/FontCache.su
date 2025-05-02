@@ -15,8 +15,6 @@
 ../TouchGFX/generated/fonts/src/FontCache.cpp:48:18:const touchgfx::GlyphNode* touchgfx::FontCache::getGlyph(touchgfx::Unicode::UnicodeChar, touchgfx::FontId) const	24	static
 ../TouchGFX/generated/fonts/src/FontCache.cpp:63:6:void touchgfx::FontCache::open()	16	static
 ../TouchGFX/generated/fonts/src/FontCache.cpp:71:6:void touchgfx::FontCache::close()	16	static
-../TouchGFX/generated/fonts/include/fonts/CachedFont.hpp:12:7:touchgfx::CachedFont::~CachedFont()	16	static
-../TouchGFX/generated/fonts/include/fonts/CachedFont.hpp:12:7:virtual touchgfx::CachedFont::~CachedFont()	16	static
 ../Middlewares/ST/touchgfx/framework/include/touchgfx/Font.hpp:165:7:constexpr touchgfx::Font& touchgfx::Font::operator=(const touchgfx::Font&)	16	static
 ../Middlewares/ST/touchgfx/framework/include/touchgfx/ConstFont.hpp:35:7:constexpr touchgfx::ConstFont& touchgfx::ConstFont::operator=(touchgfx::ConstFont&&)	16	static
 ../TouchGFX/generated/fonts/include/fonts/GeneratedFont.hpp:11:7:constexpr touchgfx::GeneratedFont& touchgfx::GeneratedFont::operator=(touchgfx::GeneratedFont&&)	16	static
@@ -35,3 +33,5 @@
 ../TouchGFX/generated/fonts/src/FontCache.cpp:383:6:bool touchgfx::FontCache::sortSortedString(int)	40	static
 ../TouchGFX/generated/fonts/src/FontCache.cpp:409:6:void touchgfx::FontCache::setPosition(uint32_t)	16	static
 ../TouchGFX/generated/fonts/src/FontCache.cpp:417:6:void touchgfx::FontCache::readData(void*, uint32_t)	24	static
+../TouchGFX/generated/fonts/include/fonts/CachedFont.hpp:12:7:touchgfx::CachedFont::~CachedFont()	16	static
+../TouchGFX/generated/fonts/include/fonts/CachedFont.hpp:12:7:virtual touchgfx::CachedFont::~CachedFont()	16	static

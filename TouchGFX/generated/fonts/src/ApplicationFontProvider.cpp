@@ -9,198 +9,96 @@ touchgfx::Font* ApplicationFontProvider::getFont(touchgfx::FontId typography)
 {
     switch (typography)
     {
-    case Typography::SIZE10:
-        // Pretendard_Regular_10_4bpp
+    case Typography::PRETENDARD_REGULAR_9:
+        // Pretendard_Regular_9_4bpp
         return const_cast<touchgfx::Font*>(TypedTextDatabase::getFonts()[0]);
-    case Typography::SIZE10_AUTO_GENERATED_FOR_GB:
-        // Pretendard_Regular_10_4bpp
+    case Typography::PRETENDARD_REGULAR_9_AUTO_GENERATED_FOR_KOREAN:
+        // Pretendard_Regular_9_4bpp
         return const_cast<touchgfx::Font*>(TypedTextDatabase::getFonts()[0]);
-    case Typography::SIZE10_AUTO_GENERATED_FOR_KOREAN:
-        // Pretendard_Regular_10_4bpp
-        return const_cast<touchgfx::Font*>(TypedTextDatabase::getFonts()[0]);
-    case Typography::SIZE10_AUTO_GENERATED_FOR_SPANISH:
-        // Pretendard_Regular_10_4bpp
-        return const_cast<touchgfx::Font*>(TypedTextDatabase::getFonts()[0]);
-    case Typography::SIZE15_BOLD:
-        // Pretendard_Bold_15_4bpp
+    case Typography::PRETENDARD_MEDIUM_12:
+        // Pretendard_Medium_12_4bpp
         return const_cast<touchgfx::Font*>(TypedTextDatabase::getFonts()[1]);
-    case Typography::SIZE15_BOLD_AUTO_GENERATED_FOR_GB:
-        // Pretendard_Bold_15_4bpp
+    case Typography::PRETENDARD_MEDIUM_12_AUTO_GENERATED_FOR_KOREAN:
+        // Pretendard_Medium_12_4bpp
         return const_cast<touchgfx::Font*>(TypedTextDatabase::getFonts()[1]);
-    case Typography::SIZE15_BOLD_AUTO_GENERATED_FOR_KOREAN:
-        // Pretendard_Bold_15_4bpp
-        return const_cast<touchgfx::Font*>(TypedTextDatabase::getFonts()[1]);
-    case Typography::SIZE15_BOLD_AUTO_GENERATED_FOR_SPANISH:
-        // Pretendard_Bold_15_4bpp
-        return const_cast<touchgfx::Font*>(TypedTextDatabase::getFonts()[1]);
-    case Typography::SIZE16:
-        // Pretendard_Regular_16_4bpp
+    case Typography::PRETENDARD_SEMIBOLD_12:
+        // Pretendard_SemiBold_12_4bpp
         return const_cast<touchgfx::Font*>(TypedTextDatabase::getFonts()[2]);
-    case Typography::SIZE16_AUTO_GENERATED_FOR_GB:
-        // Pretendard_Regular_16_4bpp
+    case Typography::PRETENDARD_SEMIBOLD_12_AUTO_GENERATED_FOR_KOREAN:
+        // Pretendard_SemiBold_12_4bpp
         return const_cast<touchgfx::Font*>(TypedTextDatabase::getFonts()[2]);
-    case Typography::SIZE16_AUTO_GENERATED_FOR_KOREAN:
-        // Pretendard_Regular_16_4bpp
-        return const_cast<touchgfx::Font*>(TypedTextDatabase::getFonts()[2]);
-    case Typography::SIZE16_AUTO_GENERATED_FOR_SPANISH:
-        // Pretendard_Regular_16_4bpp
-        return const_cast<touchgfx::Font*>(TypedTextDatabase::getFonts()[2]);
-    case Typography::SIZE18:
-        // Pretendard_Regular_18_4bpp
+    case Typography::PRETENDARD_BOLD_12:
+        // Pretendard_Bold_12_4bpp
         return const_cast<touchgfx::Font*>(TypedTextDatabase::getFonts()[3]);
-    case Typography::SIZE18_AUTO_GENERATED_FOR_GB:
-        // Pretendard_Regular_18_4bpp
+    case Typography::PRETENDARD_BOLD_12_AUTO_GENERATED_FOR_KOREAN:
+        // Pretendard_Bold_12_4bpp
         return const_cast<touchgfx::Font*>(TypedTextDatabase::getFonts()[3]);
-    case Typography::SIZE18_AUTO_GENERATED_FOR_KOREAN:
-        // Pretendard_Regular_18_4bpp
-        return const_cast<touchgfx::Font*>(TypedTextDatabase::getFonts()[3]);
-    case Typography::SIZE18_AUTO_GENERATED_FOR_SPANISH:
-        // Pretendard_Regular_18_4bpp
-        return const_cast<touchgfx::Font*>(TypedTextDatabase::getFonts()[3]);
-    case Typography::SIZE20:
-        // Pretendard_Regular_20_4bpp
+    case Typography::PRETENDARD_EXTRABOLD_12:
+        // Pretendard_ExtraBold_12_4bpp
         return const_cast<touchgfx::Font*>(TypedTextDatabase::getFonts()[4]);
-    case Typography::SIZE20_AUTO_GENERATED_FOR_GB:
-        // Pretendard_Regular_20_4bpp
+    case Typography::PRETENDARD_EXTRABOLD_12_AUTO_GENERATED_FOR_KOREAN:
+        // Pretendard_ExtraBold_12_4bpp
         return const_cast<touchgfx::Font*>(TypedTextDatabase::getFonts()[4]);
-    case Typography::SIZE20_AUTO_GENERATED_FOR_KOREAN:
-        // Pretendard_Regular_20_4bpp
-        return const_cast<touchgfx::Font*>(TypedTextDatabase::getFonts()[4]);
-    case Typography::SIZE20_AUTO_GENERATED_FOR_SPANISH:
-        // Pretendard_Regular_20_4bpp
-        return const_cast<touchgfx::Font*>(TypedTextDatabase::getFonts()[4]);
-    case Typography::SIZE24:
-        // Pretendard_Regular_24_4bpp
+    case Typography::PRETENDARD_SEMIBOLD_13:
+        // Pretendard_SemiBold_13_4bpp
         return const_cast<touchgfx::Font*>(TypedTextDatabase::getFonts()[5]);
-    case Typography::SIZE24_AUTO_GENERATED_FOR_GB:
-        // Pretendard_Regular_24_4bpp
+    case Typography::PRETENDARD_SEMIBOLD_13_AUTO_GENERATED_FOR_KOREAN:
+        // Pretendard_SemiBold_13_4bpp
         return const_cast<touchgfx::Font*>(TypedTextDatabase::getFonts()[5]);
-    case Typography::SIZE24_AUTO_GENERATED_FOR_KOREAN:
-        // Pretendard_Regular_24_4bpp
-        return const_cast<touchgfx::Font*>(TypedTextDatabase::getFonts()[5]);
-    case Typography::SIZE24_AUTO_GENERATED_FOR_SPANISH:
-        // Pretendard_Regular_24_4bpp
-        return const_cast<touchgfx::Font*>(TypedTextDatabase::getFonts()[5]);
-    case Typography::SIZE24_BOLD:
-        // Pretendard_Bold_24_4bpp
+    case Typography::PRETENDARD_SEMIBOLD_14:
+        // Pretendard_SemiBold_14_4bpp
         return const_cast<touchgfx::Font*>(TypedTextDatabase::getFonts()[6]);
-    case Typography::SIZE24_BOLD_AUTO_GENERATED_FOR_GB:
-        // Pretendard_Bold_24_4bpp
+    case Typography::PRETENDARD_SEMIBOLD_14_AUTO_GENERATED_FOR_KOREAN:
+        // Pretendard_SemiBold_14_4bpp
         return const_cast<touchgfx::Font*>(TypedTextDatabase::getFonts()[6]);
-    case Typography::SIZE24_BOLD_AUTO_GENERATED_FOR_KOREAN:
-        // Pretendard_Bold_24_4bpp
-        return const_cast<touchgfx::Font*>(TypedTextDatabase::getFonts()[6]);
-    case Typography::SIZE24_BOLD_AUTO_GENERATED_FOR_SPANISH:
-        // Pretendard_Bold_24_4bpp
-        return const_cast<touchgfx::Font*>(TypedTextDatabase::getFonts()[6]);
-    case Typography::SIZE28:
-        // Pretendard_Regular_28_4bpp
+    case Typography::PRETENDARD_MEDIUM_15:
+        // Pretendard_Medium_15_4bpp
         return const_cast<touchgfx::Font*>(TypedTextDatabase::getFonts()[7]);
-    case Typography::SIZE28_AUTO_GENERATED_FOR_GB:
-        // Pretendard_Regular_28_4bpp
+    case Typography::PRETENDARD_MEDIUM_15_AUTO_GENERATED_FOR_KOREAN:
+        // Pretendard_Medium_15_4bpp
         return const_cast<touchgfx::Font*>(TypedTextDatabase::getFonts()[7]);
-    case Typography::SIZE28_AUTO_GENERATED_FOR_KOREAN:
-        // Pretendard_Regular_28_4bpp
-        return const_cast<touchgfx::Font*>(TypedTextDatabase::getFonts()[7]);
-    case Typography::SIZE28_AUTO_GENERATED_FOR_SPANISH:
-        // Pretendard_Regular_28_4bpp
-        return const_cast<touchgfx::Font*>(TypedTextDatabase::getFonts()[7]);
-    case Typography::SIZE28_BOLD:
-        // Pretendard_Bold_28_4bpp
+    case Typography::PRETENDARD_SEMIBOLD_15:
+        // Pretendard_SemiBold_15_4bpp
         return const_cast<touchgfx::Font*>(TypedTextDatabase::getFonts()[8]);
-    case Typography::SIZE28_BOLD_AUTO_GENERATED_FOR_GB:
-        // Pretendard_Bold_28_4bpp
+    case Typography::PRETENDARD_SEMIBOLD_15_AUTO_GENERATED_FOR_KOREAN:
+        // Pretendard_SemiBold_15_4bpp
         return const_cast<touchgfx::Font*>(TypedTextDatabase::getFonts()[8]);
-    case Typography::SIZE28_BOLD_AUTO_GENERATED_FOR_KOREAN:
-        // Pretendard_Bold_28_4bpp
-        return const_cast<touchgfx::Font*>(TypedTextDatabase::getFonts()[8]);
-    case Typography::SIZE28_BOLD_AUTO_GENERATED_FOR_SPANISH:
-        // Pretendard_Bold_28_4bpp
-        return const_cast<touchgfx::Font*>(TypedTextDatabase::getFonts()[8]);
-    case Typography::SIZE32:
-        // Pretendard_Regular_32_4bpp
+    case Typography::PRETENDARD_EXTRABOLD_18:
+        // Pretendard_ExtraBold_18_4bpp
         return const_cast<touchgfx::Font*>(TypedTextDatabase::getFonts()[9]);
-    case Typography::SIZE32_AUTO_GENERATED_FOR_GB:
-        // Pretendard_Regular_32_4bpp
+    case Typography::PRETENDARD_EXTRABOLD_18_AUTO_GENERATED_FOR_KOREAN:
+        // Pretendard_ExtraBold_18_4bpp
         return const_cast<touchgfx::Font*>(TypedTextDatabase::getFonts()[9]);
-    case Typography::SIZE32_AUTO_GENERATED_FOR_KOREAN:
-        // Pretendard_Regular_32_4bpp
-        return const_cast<touchgfx::Font*>(TypedTextDatabase::getFonts()[9]);
-    case Typography::SIZE32_AUTO_GENERATED_FOR_SPANISH:
-        // Pretendard_Regular_32_4bpp
-        return const_cast<touchgfx::Font*>(TypedTextDatabase::getFonts()[9]);
-    case Typography::SIZE32_BOLD:
-        // Pretendard_Bold_32_4bpp
+    case Typography::PRETENDARD_SEMIBOLD_21:
+        // Pretendard_SemiBold_21_4bpp
         return const_cast<touchgfx::Font*>(TypedTextDatabase::getFonts()[10]);
-    case Typography::SIZE32_BOLD_AUTO_GENERATED_FOR_GB:
-        // Pretendard_Bold_32_4bpp
+    case Typography::PRETENDARD_SEMIBOLD_21_AUTO_GENERATED_FOR_KOREAN:
+        // Pretendard_SemiBold_21_4bpp
         return const_cast<touchgfx::Font*>(TypedTextDatabase::getFonts()[10]);
-    case Typography::SIZE32_BOLD_AUTO_GENERATED_FOR_KOREAN:
-        // Pretendard_Bold_32_4bpp
-        return const_cast<touchgfx::Font*>(TypedTextDatabase::getFonts()[10]);
-    case Typography::SIZE32_BOLD_AUTO_GENERATED_FOR_SPANISH:
-        // Pretendard_Bold_32_4bpp
-        return const_cast<touchgfx::Font*>(TypedTextDatabase::getFonts()[10]);
-    case Typography::SIZE35:
-        // Pretendard_Regular_35_4bpp
+    case Typography::PRETENDARD_EXTRABOLD_21:
+        // Pretendard_ExtraBold_21_4bpp
         return const_cast<touchgfx::Font*>(TypedTextDatabase::getFonts()[11]);
-    case Typography::SIZE35_AUTO_GENERATED_FOR_GB:
-        // Pretendard_Regular_35_4bpp
+    case Typography::PRETENDARD_EXTRABOLD_21_AUTO_GENERATED_FOR_KOREAN:
+        // Pretendard_ExtraBold_21_4bpp
         return const_cast<touchgfx::Font*>(TypedTextDatabase::getFonts()[11]);
-    case Typography::SIZE35_AUTO_GENERATED_FOR_KOREAN:
-        // Pretendard_Regular_35_4bpp
-        return const_cast<touchgfx::Font*>(TypedTextDatabase::getFonts()[11]);
-    case Typography::SIZE35_AUTO_GENERATED_FOR_SPANISH:
-        // Pretendard_Regular_35_4bpp
-        return const_cast<touchgfx::Font*>(TypedTextDatabase::getFonts()[11]);
-    case Typography::SIZE70:
-        // Pretendard_Bold_70_4bpp
+    case Typography::PRETENDARD_SEMIBOLD_24:
+        // Pretendard_SemiBold_24_4bpp
         return const_cast<touchgfx::Font*>(TypedTextDatabase::getFonts()[12]);
-    case Typography::SIZE70_AUTO_GENERATED_FOR_GB:
-        // Pretendard_Bold_70_4bpp
+    case Typography::PRETENDARD_SEMIBOLD_24_AUTO_GENERATED_FOR_KOREAN:
+        // Pretendard_SemiBold_24_4bpp
         return const_cast<touchgfx::Font*>(TypedTextDatabase::getFonts()[12]);
-    case Typography::SIZE70_AUTO_GENERATED_FOR_KOREAN:
-        // Pretendard_Bold_70_4bpp
-        return const_cast<touchgfx::Font*>(TypedTextDatabase::getFonts()[12]);
-    case Typography::SIZE70_AUTO_GENERATED_FOR_SPANISH:
-        // Pretendard_Bold_70_4bpp
-        return const_cast<touchgfx::Font*>(TypedTextDatabase::getFonts()[12]);
-    case Typography::SCROLLWHEELNOTSELECTED:
-        // Pretendard_Regular_32_4bpp
-        return const_cast<touchgfx::Font*>(TypedTextDatabase::getFonts()[9]);
-    case Typography::SCROLLWHEELNOTSELECTED_AUTO_GENERATED_FOR_GB:
-        // Pretendard_Regular_32_4bpp
-        return const_cast<touchgfx::Font*>(TypedTextDatabase::getFonts()[9]);
-    case Typography::SCROLLWHEELNOTSELECTED_AUTO_GENERATED_FOR_KOREAN:
-        // Pretendard_Regular_32_4bpp
-        return const_cast<touchgfx::Font*>(TypedTextDatabase::getFonts()[9]);
-    case Typography::SCROLLWHEELNOTSELECTED_AUTO_GENERATED_FOR_SPANISH:
-        // Pretendard_Regular_32_4bpp
-        return const_cast<touchgfx::Font*>(TypedTextDatabase::getFonts()[9]);
-    case Typography::SCROLLWHEELSELECTED:
-        // Pretendard_Bold_32_4bpp
-        return const_cast<touchgfx::Font*>(TypedTextDatabase::getFonts()[10]);
-    case Typography::SCROLLWHEELSELECTED_AUTO_GENERATED_FOR_GB:
-        // Pretendard_Bold_32_4bpp
-        return const_cast<touchgfx::Font*>(TypedTextDatabase::getFonts()[10]);
-    case Typography::SCROLLWHEELSELECTED_AUTO_GENERATED_FOR_KOREAN:
-        // Pretendard_Bold_32_4bpp
-        return const_cast<touchgfx::Font*>(TypedTextDatabase::getFonts()[10]);
-    case Typography::SCROLLWHEELSELECTED_AUTO_GENERATED_FOR_SPANISH:
-        // Pretendard_Bold_32_4bpp
-        return const_cast<touchgfx::Font*>(TypedTextDatabase::getFonts()[10]);
-    case Typography::SIZE48:
-        // Pretendard_Regular_48_4bpp
+    case Typography::PRETENDARD_SEMIBOLD_26:
+        // Pretendard_SemiBold_26_4bpp
         return const_cast<touchgfx::Font*>(TypedTextDatabase::getFonts()[13]);
-    case Typography::SIZE48_AUTO_GENERATED_FOR_GB:
-        // Pretendard_Regular_48_4bpp
-        return const_cast<touchgfx::Font*>(TypedTextDatabase::getFonts()[13]);
-    case Typography::SIZE48_AUTO_GENERATED_FOR_KOREAN:
-        // Pretendard_Regular_48_4bpp
-        return const_cast<touchgfx::Font*>(TypedTextDatabase::getFonts()[13]);
-    case Typography::SIZE48_AUTO_GENERATED_FOR_SPANISH:
-        // Pretendard_Regular_48_4bpp
-        return const_cast<touchgfx::Font*>(TypedTextDatabase::getFonts()[13]);
+    case Typography::PRETENDARD_SEMIBOLD_26_AUTO_GENERATED_FOR_KOREAN:
+        // Pretendard_SemiBold_28_4bpp
+        return const_cast<touchgfx::Font*>(TypedTextDatabase::getFonts()[14]);
+    case Typography::PRETENDARD_SEMIBOLD_34:
+        // Pretendard_SemiBold_34_4bpp
+        return const_cast<touchgfx::Font*>(TypedTextDatabase::getFonts()[15]);
+    case Typography::PRETENDARD_SEMIBOLD_34_AUTO_GENERATED_FOR_KOREAN:
+        // Pretendard_SemiBold_34_4bpp
+        return const_cast<touchgfx::Font*>(TypedTextDatabase::getFonts()[15]);
     default:
         return 0;
     }

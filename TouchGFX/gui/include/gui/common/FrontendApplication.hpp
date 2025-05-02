@@ -1,7 +1,7 @@
 #ifndef FRONTENDAPPLICATION_HPP
 #define FRONTENDAPPLICATION_HPP
 
-#define gui_simulation
+//#define gui_simulation
 
 #if !defined(gui_simulation)
 #include "main.h"

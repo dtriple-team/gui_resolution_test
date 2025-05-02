@@ -7,6 +7,43 @@ TouchGFX/gui/src/model/Model.o: ../TouchGFX/gui/src/model/Model.cpp \
  ../Middlewares/ST/touchgfx/framework/include/touchgfx/Callback.hpp \
  ../TouchGFX/gui/include/gui/model/ModelListener.hpp \
  ../TouchGFX/gui/include/gui/common/FrontendApplication.hpp \
+ ../TouchGFX/generated/gui_generated/include/gui_generated/common/FrontendApplicationBase.hpp \
+ ../Middlewares/ST/touchgfx/framework/include/mvp/MVPApplication.hpp \
+ ../Middlewares/ST/touchgfx/framework/include/common/AbstractPartition.hpp \
+ ../Middlewares/ST/touchgfx/framework/include/mvp/MVPHeap.hpp \
+ ../Middlewares/ST/touchgfx/framework/include/mvp/Presenter.hpp \
+ ../Middlewares/ST/touchgfx/framework/include/touchgfx/Application.hpp \
+ ../Middlewares/ST/touchgfx/framework/include/touchgfx/Drawable.hpp \
+ ../Middlewares/ST/touchgfx/framework/include/touchgfx/events/ClickEvent.hpp \
+ ../Middlewares/ST/touchgfx/framework/include/touchgfx/Event.hpp \
+ ../Middlewares/ST/touchgfx/framework/include/touchgfx/events/DragEvent.hpp \
+ ../Middlewares/ST/touchgfx/framework/include/touchgfx/events/GestureEvent.hpp \
+ ../Middlewares/ST/touchgfx/framework/include/touchgfx/UIEventListener.hpp \
+ ../Middlewares/ST/touchgfx/framework/include/touchgfx/lcd/LCD.hpp \
+ ../Middlewares/ST/touchgfx/framework/include/touchgfx/Font.hpp \
+ ../Middlewares/ST/touchgfx/framework/include/touchgfx/Unicode.hpp \
+ ../Middlewares/ST/touchgfx/framework/include/touchgfx/TextProvider.hpp \
+ ../Middlewares/ST/touchgfx/framework/include/touchgfx/TextureMapTypes.hpp \
+ ../Middlewares/ST/touchgfx/framework/include/touchgfx/hal/VectorFontRenderer.hpp \
+ ../Middlewares/ST/touchgfx/framework/include/touchgfx/hal/VectorRenderer.hpp \
+ ../Middlewares/ST/touchgfx/framework/include/touchgfx/Matrix3x3.hpp \
+ ../Middlewares/ST/touchgfx/framework/include/touchgfx/hal/VGData.hpp \
+ ../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/Widget.hpp \
+ ../Middlewares/ST/touchgfx/framework/include/touchgfx/lcd/DebugPrinter.hpp \
+ ../Middlewares/ST/touchgfx/framework/include/touchgfx/Screen.hpp \
+ ../Middlewares/ST/touchgfx/framework/include/touchgfx/containers/Container.hpp \
+ ../Middlewares/ST/touchgfx/framework/include/touchgfx/hal/HAL.hpp \
+ ../Middlewares/ST/touchgfx/framework/include/platform/core/MCUInstrumentation.hpp \
+ ../Middlewares/ST/touchgfx/framework/include/platform/driver/button/ButtonController.hpp \
+ ../Middlewares/ST/touchgfx/framework/include/platform/driver/touch/TouchController.hpp \
+ ../Middlewares/ST/touchgfx/framework/include/touchgfx/hal/BlitOp.hpp \
+ ../Middlewares/ST/touchgfx/framework/include/touchgfx/hal/DMA.hpp \
+ ../Middlewares/ST/touchgfx/framework/include/touchgfx/hal/Atomic.hpp \
+ ../Middlewares/ST/touchgfx/framework/include/touchgfx/hal/FrameBufferAllocator.hpp \
+ ../Middlewares/ST/touchgfx/framework/include/touchgfx/hal/Gestures.hpp \
+ ../Middlewares/ST/touchgfx/framework/include/touchgfx/transitions/Transition.hpp \
+ ../TouchGFX/generated/texts/include/texts/TextKeysAndLanguages.hpp \
+ ../Middlewares/ST/touchgfx/framework/include/mvp/View.hpp \
  ../Core/Inc/main.h ../Drivers/STM32U5xx_HAL_Driver/Inc/stm32u5xx_hal.h \
  ../Core/Inc/stm32u5xx_hal_conf.h \
  ../Drivers/STM32U5xx_HAL_Driver/Inc/stm32u5xx_hal_rcc.h \
@@ -60,44 +97,7 @@ TouchGFX/gui/src/model/Model.o: ../TouchGFX/gui/src/model/Model.cpp \
  ../Drivers/pmic/pmic.h ../Drivers/sensorhub/mems.h \
  ../Drivers/touch/BL6133/bl6133.h ../Core/Inc/i2c.h \
  ../Drivers/audio/speaker.h ../Drivers/ST7789/st7789.h \
- ../Drivers/ST7789/fonts.h ../Core/Inc/rtc.h \
- ../TouchGFX/generated/gui_generated/include/gui_generated/common/FrontendApplicationBase.hpp \
- ../Middlewares/ST/touchgfx/framework/include/mvp/MVPApplication.hpp \
- ../Middlewares/ST/touchgfx/framework/include/common/AbstractPartition.hpp \
- ../Middlewares/ST/touchgfx/framework/include/mvp/MVPHeap.hpp \
- ../Middlewares/ST/touchgfx/framework/include/mvp/Presenter.hpp \
- ../Middlewares/ST/touchgfx/framework/include/touchgfx/Application.hpp \
- ../Middlewares/ST/touchgfx/framework/include/touchgfx/Drawable.hpp \
- ../Middlewares/ST/touchgfx/framework/include/touchgfx/events/ClickEvent.hpp \
- ../Middlewares/ST/touchgfx/framework/include/touchgfx/Event.hpp \
- ../Middlewares/ST/touchgfx/framework/include/touchgfx/events/DragEvent.hpp \
- ../Middlewares/ST/touchgfx/framework/include/touchgfx/events/GestureEvent.hpp \
- ../Middlewares/ST/touchgfx/framework/include/touchgfx/UIEventListener.hpp \
- ../Middlewares/ST/touchgfx/framework/include/touchgfx/lcd/LCD.hpp \
- ../Middlewares/ST/touchgfx/framework/include/touchgfx/Font.hpp \
- ../Middlewares/ST/touchgfx/framework/include/touchgfx/Unicode.hpp \
- ../Middlewares/ST/touchgfx/framework/include/touchgfx/TextProvider.hpp \
- ../Middlewares/ST/touchgfx/framework/include/touchgfx/TextureMapTypes.hpp \
- ../Middlewares/ST/touchgfx/framework/include/touchgfx/hal/VectorFontRenderer.hpp \
- ../Middlewares/ST/touchgfx/framework/include/touchgfx/hal/VectorRenderer.hpp \
- ../Middlewares/ST/touchgfx/framework/include/touchgfx/Matrix3x3.hpp \
- ../Middlewares/ST/touchgfx/framework/include/touchgfx/hal/VGData.hpp \
- ../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/Widget.hpp \
- ../Middlewares/ST/touchgfx/framework/include/touchgfx/lcd/DebugPrinter.hpp \
- ../Middlewares/ST/touchgfx/framework/include/touchgfx/Screen.hpp \
- ../Middlewares/ST/touchgfx/framework/include/touchgfx/containers/Container.hpp \
- ../Middlewares/ST/touchgfx/framework/include/touchgfx/hal/HAL.hpp \
- ../Middlewares/ST/touchgfx/framework/include/platform/core/MCUInstrumentation.hpp \
- ../Middlewares/ST/touchgfx/framework/include/platform/driver/button/ButtonController.hpp \
- ../Middlewares/ST/touchgfx/framework/include/platform/driver/touch/TouchController.hpp \
- ../Middlewares/ST/touchgfx/framework/include/touchgfx/hal/BlitOp.hpp \
- ../Middlewares/ST/touchgfx/framework/include/touchgfx/hal/DMA.hpp \
- ../Middlewares/ST/touchgfx/framework/include/touchgfx/hal/Atomic.hpp \
- ../Middlewares/ST/touchgfx/framework/include/touchgfx/hal/FrameBufferAllocator.hpp \
- ../Middlewares/ST/touchgfx/framework/include/touchgfx/hal/Gestures.hpp \
- ../Middlewares/ST/touchgfx/framework/include/touchgfx/transitions/Transition.hpp \
- ../TouchGFX/generated/texts/include/texts/TextKeysAndLanguages.hpp \
- ../Middlewares/ST/touchgfx/framework/include/mvp/View.hpp
+ ../Drivers/ST7789/fonts.h
 ../TouchGFX/gui/include/gui/model/Model.hpp:
 ../Middlewares/ST/touchgfx/framework/include/touchgfx/Utils.hpp:
 ../Middlewares/ST/touchgfx/framework/include/touchgfx/Bitmap.hpp:
@@ -106,6 +106,43 @@ TouchGFX/gui/src/model/Model.o: ../TouchGFX/gui/src/model/Model.cpp \
 ../Middlewares/ST/touchgfx/framework/include/touchgfx/Callback.hpp:
 ../TouchGFX/gui/include/gui/model/ModelListener.hpp:
 ../TouchGFX/gui/include/gui/common/FrontendApplication.hpp:
+../TouchGFX/generated/gui_generated/include/gui_generated/common/FrontendApplicationBase.hpp:
+../Middlewares/ST/touchgfx/framework/include/mvp/MVPApplication.hpp:
+../Middlewares/ST/touchgfx/framework/include/common/AbstractPartition.hpp:
+../Middlewares/ST/touchgfx/framework/include/mvp/MVPHeap.hpp:
+../Middlewares/ST/touchgfx/framework/include/mvp/Presenter.hpp:
+../Middlewares/ST/touchgfx/framework/include/touchgfx/Application.hpp:
+../Middlewares/ST/touchgfx/framework/include/touchgfx/Drawable.hpp:
+../Middlewares/ST/touchgfx/framework/include/touchgfx/events/ClickEvent.hpp:
+../Middlewares/ST/touchgfx/framework/include/touchgfx/Event.hpp:
+../Middlewares/ST/touchgfx/framework/include/touchgfx/events/DragEvent.hpp:
+../Middlewares/ST/touchgfx/framework/include/touchgfx/events/GestureEvent.hpp:
+../Middlewares/ST/touchgfx/framework/include/touchgfx/UIEventListener.hpp:
+../Middlewares/ST/touchgfx/framework/include/touchgfx/lcd/LCD.hpp:
+../Middlewares/ST/touchgfx/framework/include/touchgfx/Font.hpp:
+../Middlewares/ST/touchgfx/framework/include/touchgfx/Unicode.hpp:
+../Middlewares/ST/touchgfx/framework/include/touchgfx/TextProvider.hpp:
+../Middlewares/ST/touchgfx/framework/include/touchgfx/TextureMapTypes.hpp:
+../Middlewares/ST/touchgfx/framework/include/touchgfx/hal/VectorFontRenderer.hpp:
+../Middlewares/ST/touchgfx/framework/include/touchgfx/hal/VectorRenderer.hpp:
+../Middlewares/ST/touchgfx/framework/include/touchgfx/Matrix3x3.hpp:
+../Middlewares/ST/touchgfx/framework/include/touchgfx/hal/VGData.hpp:
+../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/Widget.hpp:
+../Middlewares/ST/touchgfx/framework/include/touchgfx/lcd/DebugPrinter.hpp:
+../Middlewares/ST/touchgfx/framework/include/touchgfx/Screen.hpp:
+../Middlewares/ST/touchgfx/framework/include/touchgfx/containers/Container.hpp:
+../Middlewares/ST/touchgfx/framework/include/touchgfx/hal/HAL.hpp:
+../Middlewares/ST/touchgfx/framework/include/platform/core/MCUInstrumentation.hpp:
+../Middlewares/ST/touchgfx/framework/include/platform/driver/button/ButtonController.hpp:
+../Middlewares/ST/touchgfx/framework/include/platform/driver/touch/TouchController.hpp:
+../Middlewares/ST/touchgfx/framework/include/touchgfx/hal/BlitOp.hpp:
+../Middlewares/ST/touchgfx/framework/include/touchgfx/hal/DMA.hpp:
+../Middlewares/ST/touchgfx/framework/include/touchgfx/hal/Atomic.hpp:
+../Middlewares/ST/touchgfx/framework/include/touchgfx/hal/FrameBufferAllocator.hpp:
+../Middlewares/ST/touchgfx/framework/include/touchgfx/hal/Gestures.hpp:
+../Middlewares/ST/touchgfx/framework/include/touchgfx/transitions/Transition.hpp:
+../TouchGFX/generated/texts/include/texts/TextKeysAndLanguages.hpp:
+../Middlewares/ST/touchgfx/framework/include/mvp/View.hpp:
 ../Core/Inc/main.h:
 ../Drivers/STM32U5xx_HAL_Driver/Inc/stm32u5xx_hal.h:
 ../Core/Inc/stm32u5xx_hal_conf.h:
@@ -167,41 +204,3 @@ TouchGFX/gui/src/model/Model.o: ../TouchGFX/gui/src/model/Model.cpp \
 ../Drivers/audio/speaker.h:
 ../Drivers/ST7789/st7789.h:
 ../Drivers/ST7789/fonts.h:
-../Core/Inc/rtc.h:
-../TouchGFX/generated/gui_generated/include/gui_generated/common/FrontendApplicationBase.hpp:
-../Middlewares/ST/touchgfx/framework/include/mvp/MVPApplication.hpp:
-../Middlewares/ST/touchgfx/framework/include/common/AbstractPartition.hpp:
-../Middlewares/ST/touchgfx/framework/include/mvp/MVPHeap.hpp:
-../Middlewares/ST/touchgfx/framework/include/mvp/Presenter.hpp:
-../Middlewares/ST/touchgfx/framework/include/touchgfx/Application.hpp:
-../Middlewares/ST/touchgfx/framework/include/touchgfx/Drawable.hpp:
-../Middlewares/ST/touchgfx/framework/include/touchgfx/events/ClickEvent.hpp:
-../Middlewares/ST/touchgfx/framework/include/touchgfx/Event.hpp:
-../Middlewares/ST/touchgfx/framework/include/touchgfx/events/DragEvent.hpp:
-../Middlewares/ST/touchgfx/framework/include/touchgfx/events/GestureEvent.hpp:
-../Middlewares/ST/touchgfx/framework/include/touchgfx/UIEventListener.hpp:
-../Middlewares/ST/touchgfx/framework/include/touchgfx/lcd/LCD.hpp:
-../Middlewares/ST/touchgfx/framework/include/touchgfx/Font.hpp:
-../Middlewares/ST/touchgfx/framework/include/touchgfx/Unicode.hpp:
-../Middlewares/ST/touchgfx/framework/include/touchgfx/TextProvider.hpp:
-../Middlewares/ST/touchgfx/framework/include/touchgfx/TextureMapTypes.hpp:
-../Middlewares/ST/touchgfx/framework/include/touchgfx/hal/VectorFontRenderer.hpp:
-../Middlewares/ST/touchgfx/framework/include/touchgfx/hal/VectorRenderer.hpp:
-../Middlewares/ST/touchgfx/framework/include/touchgfx/Matrix3x3.hpp:
-../Middlewares/ST/touchgfx/framework/include/touchgfx/hal/VGData.hpp:
-../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/Widget.hpp:
-../Middlewares/ST/touchgfx/framework/include/touchgfx/lcd/DebugPrinter.hpp:
-../Middlewares/ST/touchgfx/framework/include/touchgfx/Screen.hpp:
-../Middlewares/ST/touchgfx/framework/include/touchgfx/containers/Container.hpp:
-../Middlewares/ST/touchgfx/framework/include/touchgfx/hal/HAL.hpp:
-../Middlewares/ST/touchgfx/framework/include/platform/core/MCUInstrumentation.hpp:
-../Middlewares/ST/touchgfx/framework/include/platform/driver/button/ButtonController.hpp:
-../Middlewares/ST/touchgfx/framework/include/platform/driver/touch/TouchController.hpp:
-../Middlewares/ST/touchgfx/framework/include/touchgfx/hal/BlitOp.hpp:
-../Middlewares/ST/touchgfx/framework/include/touchgfx/hal/DMA.hpp:
-../Middlewares/ST/touchgfx/framework/include/touchgfx/hal/Atomic.hpp:
-../Middlewares/ST/touchgfx/framework/include/touchgfx/hal/FrameBufferAllocator.hpp:
-../Middlewares/ST/touchgfx/framework/include/touchgfx/hal/Gestures.hpp:
-../Middlewares/ST/touchgfx/framework/include/touchgfx/transitions/Transition.hpp:
-../TouchGFX/generated/texts/include/texts/TextKeysAndLanguages.hpp:
-../Middlewares/ST/touchgfx/framework/include/mvp/View.hpp:

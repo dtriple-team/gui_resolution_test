@@ -7,8 +7,6 @@
 ../Middlewares/ST/touchgfx/framework/include/touchgfx/hal/DMA.hpp:240:13:virtual touchgfx::DMA_Interface::~DMA_Interface()	16	static
 ../Middlewares/ST/touchgfx/framework/include/touchgfx/hal/DMA.hpp:250:5:touchgfx::DMA_Interface::DMA_Interface(touchgfx::DMA_Queue&)	16	static
 ../TouchGFX/target/TouchGFXDMA.hpp:97:18:virtual void TouchGFXDMA::signalDMAInterrupt()	16	static
-../Middlewares/ST/touchgfx/framework/include/touchgfx/hal/DMA.hpp:87:7:touchgfx::LockFreeDMA_Queue::~LockFreeDMA_Queue()	16	static
-../Middlewares/ST/touchgfx/framework/include/touchgfx/hal/DMA.hpp:87:7:virtual touchgfx::LockFreeDMA_Queue::~LockFreeDMA_Queue()	16	static
 ../Middlewares/ST/touchgfx/framework/include/touchgfx/hal/BlitOp.hpp:46:8:touchgfx::BlitOp::BlitOp()	16	static
 ../TouchGFX/target/TouchGFXDMA.cpp:29:1:TouchGFXDMA::TouchGFXDMA()	24	static
 ../TouchGFX/target/TouchGFXDMA.cpp:35:1:TouchGFXDMA::~TouchGFXDMA()	16	static
@@ -18,3 +16,5 @@
 ../TouchGFX/target/TouchGFXDMA.cpp:67:6:virtual void TouchGFXDMA::setupDataCopy(const touchgfx::BlitOp&)	16	static
 ../TouchGFX/target/TouchGFXDMA.cpp:77:6:virtual void TouchGFXDMA::setupDataFill(const touchgfx::BlitOp&)	16	static
 ../TouchGFX/target/TouchGFXDMA.cpp:82:6:virtual void TouchGFXDMA::start()	16	static
+../Middlewares/ST/touchgfx/framework/include/touchgfx/hal/DMA.hpp:87:7:touchgfx::LockFreeDMA_Queue::~LockFreeDMA_Queue()	16	static
+../Middlewares/ST/touchgfx/framework/include/touchgfx/hal/DMA.hpp:87:7:virtual touchgfx::LockFreeDMA_Queue::~LockFreeDMA_Queue()	16	static

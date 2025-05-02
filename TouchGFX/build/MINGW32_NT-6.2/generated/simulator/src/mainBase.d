@@ -74,16 +74,47 @@ build/MINGW32_NT-6.2/generated/simulator/src/mainBase.o: \
  ../Middlewares/ST/touchgfx/framework/include/touchgfx/Utils.hpp \
  generated/texts/include/texts/TextKeysAndLanguages.hpp \
  ../Middlewares/ST/touchgfx/framework/include/mvp/View.hpp \
- gui/include/gui/screen1_screen/Screen1View.hpp \
- generated/gui_generated/include/gui_generated/screen1_screen/Screen1ViewBase.hpp \
- gui/include/gui/screen1_screen/Screen1Presenter.hpp \
+ gui/include/gui/main_screen/MainView.hpp \
+ generated/gui_generated/include/gui_generated/main_screen/MainViewBase.hpp \
+ gui/include/gui/main_screen/MainPresenter.hpp \
  gui/include/gui/model/ModelListener.hpp \
  ../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/Box.hpp \
+ ../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/Image.hpp \
+ gui/include/gui/containers/main_container.hpp \
+ generated/gui_generated/include/gui_generated/containers/main_containerBase.hpp \
+ ../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/TextAreaWithWildcard.hpp \
+ ../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/TextArea.hpp \
+ ../Middlewares/ST/touchgfx/framework/include/touchgfx/containers/clock/DigitalClock.hpp \
+ ../Middlewares/ST/touchgfx/framework/include/touchgfx/containers/clock/AbstractClock.hpp \
+ gui/include/gui/containers/mini_time_container.hpp \
+ generated/gui_generated/include/gui_generated/containers/mini_time_containerBase.hpp \
  ../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/Button.hpp \
  ../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/AbstractButton.hpp \
- gui/include/gui/screen1_1_screen/Screen1_1View.hpp \
- generated/gui_generated/include/gui_generated/screen1_1_screen/Screen1_1ViewBase.hpp \
- gui/include/gui/screen1_1_screen/Screen1_1Presenter.hpp \
+ gui/include/gui/skintemp_permin_screen/Skintemp_perminView.hpp \
+ generated/gui_generated/include/gui_generated/skintemp_permin_screen/Skintemp_perminViewBase.hpp \
+ gui/include/gui/skintemp_permin_screen/Skintemp_perminPresenter.hpp \
+ gui/include/gui/containers/skintemp_permin_container.hpp \
+ generated/gui_generated/include/gui_generated/containers/skintemp_permin_containerBase.hpp \
+ gui/include/gui/hr_permin_screen/Hr_perminView.hpp \
+ generated/gui_generated/include/gui_generated/hr_permin_screen/Hr_perminViewBase.hpp \
+ gui/include/gui/hr_permin_screen/Hr_perminPresenter.hpp \
+ gui/include/gui/containers/hr_permin_container.hpp \
+ generated/gui_generated/include/gui_generated/containers/hr_permin_containerBase.hpp \
+ gui/include/gui/cal_permin_screen/Cal_perminView.hpp \
+ generated/gui_generated/include/gui_generated/cal_permin_screen/Cal_perminViewBase.hpp \
+ gui/include/gui/cal_permin_screen/Cal_perminPresenter.hpp \
+ gui/include/gui/containers/cal_permin_container.hpp \
+ generated/gui_generated/include/gui_generated/containers/cal_permin_containerBase.hpp \
+ gui/include/gui/measure_hr_screen/Measure_hrView.hpp \
+ generated/gui_generated/include/gui_generated/measure_hr_screen/Measure_hrViewBase.hpp \
+ gui/include/gui/measure_hr_screen/Measure_hrPresenter.hpp \
+ gui/include/gui/enter_user_info_screen/Enter_user_infoView.hpp \
+ generated/gui_generated/include/gui_generated/enter_user_info_screen/Enter_user_infoViewBase.hpp \
+ gui/include/gui/enter_user_info_screen/Enter_user_infoPresenter.hpp \
+ ../Middlewares/ST/touchgfx/framework/include/touchgfx/containers/ScrollableContainer.hpp \
+ ../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/RadioButton.hpp \
+ ../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/RadioButtonGroup.hpp \
+ ../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/ToggleButton.hpp \
  ../Middlewares/ST/touchgfx/framework/include/platform/driver/lcd/LCD16bpp.hpp \
  ../Middlewares/ST/touchgfx/framework/include/touchgfx/lcd/LCD16DebugPrinter.hpp
 
@@ -235,25 +266,87 @@ generated/texts/include/texts/TextKeysAndLanguages.hpp:
 
 ../Middlewares/ST/touchgfx/framework/include/mvp/View.hpp:
 
-gui/include/gui/screen1_screen/Screen1View.hpp:
+gui/include/gui/main_screen/MainView.hpp:
 
-generated/gui_generated/include/gui_generated/screen1_screen/Screen1ViewBase.hpp:
+generated/gui_generated/include/gui_generated/main_screen/MainViewBase.hpp:
 
-gui/include/gui/screen1_screen/Screen1Presenter.hpp:
+gui/include/gui/main_screen/MainPresenter.hpp:
 
 gui/include/gui/model/ModelListener.hpp:
 
 ../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/Box.hpp:
 
+../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/Image.hpp:
+
+gui/include/gui/containers/main_container.hpp:
+
+generated/gui_generated/include/gui_generated/containers/main_containerBase.hpp:
+
+../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/TextAreaWithWildcard.hpp:
+
+../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/TextArea.hpp:
+
+../Middlewares/ST/touchgfx/framework/include/touchgfx/containers/clock/DigitalClock.hpp:
+
+../Middlewares/ST/touchgfx/framework/include/touchgfx/containers/clock/AbstractClock.hpp:
+
+gui/include/gui/containers/mini_time_container.hpp:
+
+generated/gui_generated/include/gui_generated/containers/mini_time_containerBase.hpp:
+
 ../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/Button.hpp:
 
 ../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/AbstractButton.hpp:
 
-gui/include/gui/screen1_1_screen/Screen1_1View.hpp:
+gui/include/gui/skintemp_permin_screen/Skintemp_perminView.hpp:
 
-generated/gui_generated/include/gui_generated/screen1_1_screen/Screen1_1ViewBase.hpp:
+generated/gui_generated/include/gui_generated/skintemp_permin_screen/Skintemp_perminViewBase.hpp:
 
-gui/include/gui/screen1_1_screen/Screen1_1Presenter.hpp:
+gui/include/gui/skintemp_permin_screen/Skintemp_perminPresenter.hpp:
+
+gui/include/gui/containers/skintemp_permin_container.hpp:
+
+generated/gui_generated/include/gui_generated/containers/skintemp_permin_containerBase.hpp:
+
+gui/include/gui/hr_permin_screen/Hr_perminView.hpp:
+
+generated/gui_generated/include/gui_generated/hr_permin_screen/Hr_perminViewBase.hpp:
+
+gui/include/gui/hr_permin_screen/Hr_perminPresenter.hpp:
+
+gui/include/gui/containers/hr_permin_container.hpp:
+
+generated/gui_generated/include/gui_generated/containers/hr_permin_containerBase.hpp:
+
+gui/include/gui/cal_permin_screen/Cal_perminView.hpp:
+
+generated/gui_generated/include/gui_generated/cal_permin_screen/Cal_perminViewBase.hpp:
+
+gui/include/gui/cal_permin_screen/Cal_perminPresenter.hpp:
+
+gui/include/gui/containers/cal_permin_container.hpp:
+
+generated/gui_generated/include/gui_generated/containers/cal_permin_containerBase.hpp:
+
+gui/include/gui/measure_hr_screen/Measure_hrView.hpp:
+
+generated/gui_generated/include/gui_generated/measure_hr_screen/Measure_hrViewBase.hpp:
+
+gui/include/gui/measure_hr_screen/Measure_hrPresenter.hpp:
+
+gui/include/gui/enter_user_info_screen/Enter_user_infoView.hpp:
+
+generated/gui_generated/include/gui_generated/enter_user_info_screen/Enter_user_infoViewBase.hpp:
+
+gui/include/gui/enter_user_info_screen/Enter_user_infoPresenter.hpp:
+
+../Middlewares/ST/touchgfx/framework/include/touchgfx/containers/ScrollableContainer.hpp:
+
+../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/RadioButton.hpp:
+
+../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/RadioButtonGroup.hpp:
+
+../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/ToggleButton.hpp:
 
 ../Middlewares/ST/touchgfx/framework/include/platform/driver/lcd/LCD16bpp.hpp:
 

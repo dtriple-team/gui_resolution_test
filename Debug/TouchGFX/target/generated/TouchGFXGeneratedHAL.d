@@ -43,10 +43,61 @@ TouchGFX/target/generated/TouchGFXGeneratedHAL.o: \
  ../Middlewares/ST/touchgfx/framework/include/touchgfx/containers/Container.hpp \
  ../Middlewares/ST/touchgfx/framework/include/touchgfx/Callback.hpp \
  ../TouchGFX/gui/include/gui/common/FrontendApplication.hpp \
- ../Core/Inc/main.h ../Drivers/STM32U5xx_HAL_Driver/Inc/stm32u5xx_hal.h \
- ../Core/Inc/stm32u5xx_hal_conf.h \
- ../Drivers/STM32U5xx_HAL_Driver/Inc/stm32u5xx_hal_rcc.h \
- ../Drivers/STM32U5xx_HAL_Driver/Inc/stm32u5xx_hal_def.h \
+ ../TouchGFX/generated/gui_generated/include/gui_generated/common/FrontendApplicationBase.hpp \
+ ../Middlewares/ST/touchgfx/framework/include/mvp/MVPApplication.hpp \
+ ../Middlewares/ST/touchgfx/framework/include/mvp/Presenter.hpp \
+ ../Middlewares/ST/touchgfx/framework/include/touchgfx/Screen.hpp \
+ ../TouchGFX/gui/include/gui/model/Model.hpp \
+ ../Middlewares/ST/touchgfx/framework/include/touchgfx/Utils.hpp \
+ ../TouchGFX/generated/texts/include/texts/TextKeysAndLanguages.hpp \
+ ../Middlewares/ST/touchgfx/framework/include/mvp/View.hpp \
+ ../TouchGFX/gui/include/gui/main_screen/MainView.hpp \
+ ../TouchGFX/generated/gui_generated/include/gui_generated/main_screen/MainViewBase.hpp \
+ ../TouchGFX/gui/include/gui/main_screen/MainPresenter.hpp \
+ ../TouchGFX/gui/include/gui/model/ModelListener.hpp \
+ ../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/Box.hpp \
+ ../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/Image.hpp \
+ ../TouchGFX/gui/include/gui/containers/main_container.hpp \
+ ../TouchGFX/generated/gui_generated/include/gui_generated/containers/main_containerBase.hpp \
+ ../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/TextAreaWithWildcard.hpp \
+ ../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/TextArea.hpp \
+ ../Middlewares/ST/touchgfx/framework/include/touchgfx/TypedText.hpp \
+ ../Middlewares/ST/touchgfx/framework/include/touchgfx/Texts.hpp \
+ ../Middlewares/ST/touchgfx/framework/include/touchgfx/containers/clock/DigitalClock.hpp \
+ ../Middlewares/ST/touchgfx/framework/include/touchgfx/containers/clock/AbstractClock.hpp \
+ ../TouchGFX/gui/include/gui/containers/mini_time_container.hpp \
+ ../TouchGFX/generated/gui_generated/include/gui_generated/containers/mini_time_containerBase.hpp \
+ ../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/Button.hpp \
+ ../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/AbstractButton.hpp \
+ ../TouchGFX/gui/include/gui/skintemp_permin_screen/Skintemp_perminView.hpp \
+ ../TouchGFX/generated/gui_generated/include/gui_generated/skintemp_permin_screen/Skintemp_perminViewBase.hpp \
+ ../TouchGFX/gui/include/gui/skintemp_permin_screen/Skintemp_perminPresenter.hpp \
+ ../TouchGFX/gui/include/gui/containers/skintemp_permin_container.hpp \
+ ../TouchGFX/generated/gui_generated/include/gui_generated/containers/skintemp_permin_containerBase.hpp \
+ ../TouchGFX/gui/include/gui/hr_permin_screen/Hr_perminView.hpp \
+ ../TouchGFX/generated/gui_generated/include/gui_generated/hr_permin_screen/Hr_perminViewBase.hpp \
+ ../TouchGFX/gui/include/gui/hr_permin_screen/Hr_perminPresenter.hpp \
+ ../TouchGFX/gui/include/gui/containers/hr_permin_container.hpp \
+ ../TouchGFX/generated/gui_generated/include/gui_generated/containers/hr_permin_containerBase.hpp \
+ ../TouchGFX/gui/include/gui/cal_permin_screen/Cal_perminView.hpp \
+ ../TouchGFX/generated/gui_generated/include/gui_generated/cal_permin_screen/Cal_perminViewBase.hpp \
+ ../TouchGFX/gui/include/gui/cal_permin_screen/Cal_perminPresenter.hpp \
+ ../TouchGFX/gui/include/gui/containers/cal_permin_container.hpp \
+ ../TouchGFX/generated/gui_generated/include/gui_generated/containers/cal_permin_containerBase.hpp \
+ ../TouchGFX/gui/include/gui/measure_hr_screen/Measure_hrView.hpp \
+ ../TouchGFX/generated/gui_generated/include/gui_generated/measure_hr_screen/Measure_hrViewBase.hpp \
+ ../TouchGFX/gui/include/gui/measure_hr_screen/Measure_hrPresenter.hpp \
+ ../TouchGFX/gui/include/gui/enter_user_info_screen/Enter_user_infoView.hpp \
+ ../TouchGFX/generated/gui_generated/include/gui_generated/enter_user_info_screen/Enter_user_infoViewBase.hpp \
+ ../TouchGFX/gui/include/gui/enter_user_info_screen/Enter_user_infoPresenter.hpp \
+ ../Middlewares/ST/touchgfx/framework/include/touchgfx/containers/ScrollableContainer.hpp \
+ ../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/RadioButton.hpp \
+ ../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/RadioButtonGroup.hpp \
+ ../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/ToggleButton.hpp \
+ ../Middlewares/ST/touchgfx/framework/include/touchgfx/hal/PaintImpl.hpp \
+ ../Middlewares/ST/touchgfx/framework/include/touchgfx/hal/Paint.hpp \
+ ../Middlewares/ST/touchgfx/framework/include/touchgfx/hal/PaintRGB565Impl.hpp \
+ ../Middlewares/ST/touchgfx/framework/include/touchgfx/Color.hpp \
  ../Drivers/CMSIS/Device/ST/STM32U5xx/Include/stm32u5xx.h \
  ../Drivers/CMSIS/Device/ST/STM32U5xx/Include/stm32u585xx.h \
  ../Drivers/CMSIS/Include/core_cm33.h \
@@ -55,6 +106,10 @@ TouchGFX/target/generated/TouchGFXGeneratedHAL.o: \
  ../Drivers/CMSIS/Include/cmsis_gcc.h \
  ../Drivers/CMSIS/Include/mpu_armv8.h \
  ../Drivers/CMSIS/Device/ST/STM32U5xx/Include/system_stm32u5xx.h \
+ ../Drivers/STM32U5xx_HAL_Driver/Inc/stm32u5xx_hal.h \
+ ../Core/Inc/stm32u5xx_hal_conf.h \
+ ../Drivers/STM32U5xx_HAL_Driver/Inc/stm32u5xx_hal_rcc.h \
+ ../Drivers/STM32U5xx_HAL_Driver/Inc/stm32u5xx_hal_def.h \
  ../Drivers/STM32U5xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h \
  ../Drivers/STM32U5xx_HAL_Driver/Inc/stm32u5xx_hal_rcc_ex.h \
  ../Drivers/STM32U5xx_HAL_Driver/Inc/stm32u5xx_hal_gpio.h \
@@ -89,36 +144,7 @@ TouchGFX/target/generated/TouchGFXGeneratedHAL.o: \
  ../Drivers/STM32U5xx_HAL_Driver/Inc/stm32u5xx_hal_uart.h \
  ../Drivers/STM32U5xx_HAL_Driver/Inc/stm32u5xx_hal_uart_ex.h \
  ../Drivers/STM32U5xx_HAL_Driver/Inc/stm32u5xx_hal_exti.h \
- ../Drivers/STM32U5xx_HAL_Driver/Inc/stm32u5xx_hal_mdf.h \
- ../Middlewares/Third_Party/CMSIS/RTOS2/Include/cmsis_os2.h \
- ../Core/Inc/rtc.h ../Core/Inc/main.h ../Core/Inc/eHG4_api.h \
- ../Drivers/CatM1/nrf9160.h ../Drivers/sensorhub/smartsensor.h \
- ../Drivers/pmic/pmic.h ../Drivers/sensorhub/mems.h \
- ../Drivers/touch/BL6133/bl6133.h ../Core/Inc/i2c.h \
- ../Drivers/audio/speaker.h ../Drivers/ST7789/st7789.h \
- ../Drivers/ST7789/fonts.h ../Core/Inc/rtc.h \
- ../TouchGFX/generated/gui_generated/include/gui_generated/common/FrontendApplicationBase.hpp \
- ../Middlewares/ST/touchgfx/framework/include/mvp/MVPApplication.hpp \
- ../Middlewares/ST/touchgfx/framework/include/mvp/Presenter.hpp \
- ../Middlewares/ST/touchgfx/framework/include/touchgfx/Screen.hpp \
- ../TouchGFX/gui/include/gui/model/Model.hpp \
- ../Middlewares/ST/touchgfx/framework/include/touchgfx/Utils.hpp \
- ../TouchGFX/generated/texts/include/texts/TextKeysAndLanguages.hpp \
- ../Middlewares/ST/touchgfx/framework/include/mvp/View.hpp \
- ../TouchGFX/gui/include/gui/screen1_screen/Screen1View.hpp \
- ../TouchGFX/generated/gui_generated/include/gui_generated/screen1_screen/Screen1ViewBase.hpp \
- ../TouchGFX/gui/include/gui/screen1_screen/Screen1Presenter.hpp \
- ../TouchGFX/gui/include/gui/model/ModelListener.hpp \
- ../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/Box.hpp \
- ../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/Button.hpp \
- ../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/AbstractButton.hpp \
- ../TouchGFX/gui/include/gui/screen1_1_screen/Screen1_1View.hpp \
- ../TouchGFX/generated/gui_generated/include/gui_generated/screen1_1_screen/Screen1_1ViewBase.hpp \
- ../TouchGFX/gui/include/gui/screen1_1_screen/Screen1_1Presenter.hpp \
- ../Middlewares/ST/touchgfx/framework/include/touchgfx/hal/PaintImpl.hpp \
- ../Middlewares/ST/touchgfx/framework/include/touchgfx/hal/Paint.hpp \
- ../Middlewares/ST/touchgfx/framework/include/touchgfx/hal/PaintRGB565Impl.hpp \
- ../Middlewares/ST/touchgfx/framework/include/touchgfx/Color.hpp
+ ../Drivers/STM32U5xx_HAL_Driver/Inc/stm32u5xx_hal_mdf.h
 ../TouchGFX/target/generated/TouchGFXGeneratedHAL.hpp:
 ../Middlewares/ST/touchgfx/framework/include/touchgfx/hal/HAL.hpp:
 ../Middlewares/ST/touchgfx/framework/include/platform/core/MCUInstrumentation.hpp:
@@ -162,11 +188,61 @@ TouchGFX/target/generated/TouchGFXGeneratedHAL.o: \
 ../Middlewares/ST/touchgfx/framework/include/touchgfx/containers/Container.hpp:
 ../Middlewares/ST/touchgfx/framework/include/touchgfx/Callback.hpp:
 ../TouchGFX/gui/include/gui/common/FrontendApplication.hpp:
-../Core/Inc/main.h:
-../Drivers/STM32U5xx_HAL_Driver/Inc/stm32u5xx_hal.h:
-../Core/Inc/stm32u5xx_hal_conf.h:
-../Drivers/STM32U5xx_HAL_Driver/Inc/stm32u5xx_hal_rcc.h:
-../Drivers/STM32U5xx_HAL_Driver/Inc/stm32u5xx_hal_def.h:
+../TouchGFX/generated/gui_generated/include/gui_generated/common/FrontendApplicationBase.hpp:
+../Middlewares/ST/touchgfx/framework/include/mvp/MVPApplication.hpp:
+../Middlewares/ST/touchgfx/framework/include/mvp/Presenter.hpp:
+../Middlewares/ST/touchgfx/framework/include/touchgfx/Screen.hpp:
+../TouchGFX/gui/include/gui/model/Model.hpp:
+../Middlewares/ST/touchgfx/framework/include/touchgfx/Utils.hpp:
+../TouchGFX/generated/texts/include/texts/TextKeysAndLanguages.hpp:
+../Middlewares/ST/touchgfx/framework/include/mvp/View.hpp:
+../TouchGFX/gui/include/gui/main_screen/MainView.hpp:
+../TouchGFX/generated/gui_generated/include/gui_generated/main_screen/MainViewBase.hpp:
+../TouchGFX/gui/include/gui/main_screen/MainPresenter.hpp:
+../TouchGFX/gui/include/gui/model/ModelListener.hpp:
+../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/Box.hpp:
+../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/Image.hpp:
+../TouchGFX/gui/include/gui/containers/main_container.hpp:
+../TouchGFX/generated/gui_generated/include/gui_generated/containers/main_containerBase.hpp:
+../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/TextAreaWithWildcard.hpp:
+../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/TextArea.hpp:
+../Middlewares/ST/touchgfx/framework/include/touchgfx/TypedText.hpp:
+../Middlewares/ST/touchgfx/framework/include/touchgfx/Texts.hpp:
+../Middlewares/ST/touchgfx/framework/include/touchgfx/containers/clock/DigitalClock.hpp:
+../Middlewares/ST/touchgfx/framework/include/touchgfx/containers/clock/AbstractClock.hpp:
+../TouchGFX/gui/include/gui/containers/mini_time_container.hpp:
+../TouchGFX/generated/gui_generated/include/gui_generated/containers/mini_time_containerBase.hpp:
+../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/Button.hpp:
+../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/AbstractButton.hpp:
+../TouchGFX/gui/include/gui/skintemp_permin_screen/Skintemp_perminView.hpp:
+../TouchGFX/generated/gui_generated/include/gui_generated/skintemp_permin_screen/Skintemp_perminViewBase.hpp:
+../TouchGFX/gui/include/gui/skintemp_permin_screen/Skintemp_perminPresenter.hpp:
+../TouchGFX/gui/include/gui/containers/skintemp_permin_container.hpp:
+../TouchGFX/generated/gui_generated/include/gui_generated/containers/skintemp_permin_containerBase.hpp:
+../TouchGFX/gui/include/gui/hr_permin_screen/Hr_perminView.hpp:
+../TouchGFX/generated/gui_generated/include/gui_generated/hr_permin_screen/Hr_perminViewBase.hpp:
+../TouchGFX/gui/include/gui/hr_permin_screen/Hr_perminPresenter.hpp:
+../TouchGFX/gui/include/gui/containers/hr_permin_container.hpp:
+../TouchGFX/generated/gui_generated/include/gui_generated/containers/hr_permin_containerBase.hpp:
+../TouchGFX/gui/include/gui/cal_permin_screen/Cal_perminView.hpp:
+../TouchGFX/generated/gui_generated/include/gui_generated/cal_permin_screen/Cal_perminViewBase.hpp:
+../TouchGFX/gui/include/gui/cal_permin_screen/Cal_perminPresenter.hpp:
+../TouchGFX/gui/include/gui/containers/cal_permin_container.hpp:
+../TouchGFX/generated/gui_generated/include/gui_generated/containers/cal_permin_containerBase.hpp:
+../TouchGFX/gui/include/gui/measure_hr_screen/Measure_hrView.hpp:
+../TouchGFX/generated/gui_generated/include/gui_generated/measure_hr_screen/Measure_hrViewBase.hpp:
+../TouchGFX/gui/include/gui/measure_hr_screen/Measure_hrPresenter.hpp:
+../TouchGFX/gui/include/gui/enter_user_info_screen/Enter_user_infoView.hpp:
+../TouchGFX/generated/gui_generated/include/gui_generated/enter_user_info_screen/Enter_user_infoViewBase.hpp:
+../TouchGFX/gui/include/gui/enter_user_info_screen/Enter_user_infoPresenter.hpp:
+../Middlewares/ST/touchgfx/framework/include/touchgfx/containers/ScrollableContainer.hpp:
+../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/RadioButton.hpp:
+../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/RadioButtonGroup.hpp:
+../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/ToggleButton.hpp:
+../Middlewares/ST/touchgfx/framework/include/touchgfx/hal/PaintImpl.hpp:
+../Middlewares/ST/touchgfx/framework/include/touchgfx/hal/Paint.hpp:
+../Middlewares/ST/touchgfx/framework/include/touchgfx/hal/PaintRGB565Impl.hpp:
+../Middlewares/ST/touchgfx/framework/include/touchgfx/Color.hpp:
 ../Drivers/CMSIS/Device/ST/STM32U5xx/Include/stm32u5xx.h:
 ../Drivers/CMSIS/Device/ST/STM32U5xx/Include/stm32u585xx.h:
 ../Drivers/CMSIS/Include/core_cm33.h:
@@ -175,6 +251,10 @@ TouchGFX/target/generated/TouchGFXGeneratedHAL.o: \
 ../Drivers/CMSIS/Include/cmsis_gcc.h:
 ../Drivers/CMSIS/Include/mpu_armv8.h:
 ../Drivers/CMSIS/Device/ST/STM32U5xx/Include/system_stm32u5xx.h:
+../Drivers/STM32U5xx_HAL_Driver/Inc/stm32u5xx_hal.h:
+../Core/Inc/stm32u5xx_hal_conf.h:
+../Drivers/STM32U5xx_HAL_Driver/Inc/stm32u5xx_hal_rcc.h:
+../Drivers/STM32U5xx_HAL_Driver/Inc/stm32u5xx_hal_def.h:
 ../Drivers/STM32U5xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h:
 ../Drivers/STM32U5xx_HAL_Driver/Inc/stm32u5xx_hal_rcc_ex.h:
 ../Drivers/STM32U5xx_HAL_Driver/Inc/stm32u5xx_hal_gpio.h:
@@ -210,39 +290,3 @@ TouchGFX/target/generated/TouchGFXGeneratedHAL.o: \
 ../Drivers/STM32U5xx_HAL_Driver/Inc/stm32u5xx_hal_uart_ex.h:
 ../Drivers/STM32U5xx_HAL_Driver/Inc/stm32u5xx_hal_exti.h:
 ../Drivers/STM32U5xx_HAL_Driver/Inc/stm32u5xx_hal_mdf.h:
-../Middlewares/Third_Party/CMSIS/RTOS2/Include/cmsis_os2.h:
-../Core/Inc/rtc.h:
-../Core/Inc/main.h:
-../Core/Inc/eHG4_api.h:
-../Drivers/CatM1/nrf9160.h:
-../Drivers/sensorhub/smartsensor.h:
-../Drivers/pmic/pmic.h:
-../Drivers/sensorhub/mems.h:
-../Drivers/touch/BL6133/bl6133.h:
-../Core/Inc/i2c.h:
-../Drivers/audio/speaker.h:
-../Drivers/ST7789/st7789.h:
-../Drivers/ST7789/fonts.h:
-../Core/Inc/rtc.h:
-../TouchGFX/generated/gui_generated/include/gui_generated/common/FrontendApplicationBase.hpp:
-../Middlewares/ST/touchgfx/framework/include/mvp/MVPApplication.hpp:
-../Middlewares/ST/touchgfx/framework/include/mvp/Presenter.hpp:
-../Middlewares/ST/touchgfx/framework/include/touchgfx/Screen.hpp:
-../TouchGFX/gui/include/gui/model/Model.hpp:
-../Middlewares/ST/touchgfx/framework/include/touchgfx/Utils.hpp:
-../TouchGFX/generated/texts/include/texts/TextKeysAndLanguages.hpp:
-../Middlewares/ST/touchgfx/framework/include/mvp/View.hpp:
-../TouchGFX/gui/include/gui/screen1_screen/Screen1View.hpp:
-../TouchGFX/generated/gui_generated/include/gui_generated/screen1_screen/Screen1ViewBase.hpp:
-../TouchGFX/gui/include/gui/screen1_screen/Screen1Presenter.hpp:
-../TouchGFX/gui/include/gui/model/ModelListener.hpp:
-../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/Box.hpp:
-../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/Button.hpp:
-../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/AbstractButton.hpp:
-../TouchGFX/gui/include/gui/screen1_1_screen/Screen1_1View.hpp:
-../TouchGFX/generated/gui_generated/include/gui_generated/screen1_1_screen/Screen1_1ViewBase.hpp:
-../TouchGFX/gui/include/gui/screen1_1_screen/Screen1_1Presenter.hpp:
-../Middlewares/ST/touchgfx/framework/include/touchgfx/hal/PaintImpl.hpp:
-../Middlewares/ST/touchgfx/framework/include/touchgfx/hal/Paint.hpp:
-../Middlewares/ST/touchgfx/framework/include/touchgfx/hal/PaintRGB565Impl.hpp:
-../Middlewares/ST/touchgfx/framework/include/touchgfx/Color.hpp:

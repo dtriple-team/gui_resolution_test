@@ -12,10 +12,18 @@
 #include <gui/common/FrontendApplication.hpp>
 #include <gui/model/Model.hpp>
 
-#include <gui/screen1_screen/Screen1View.hpp>
-#include <gui/screen1_screen/Screen1Presenter.hpp>
-#include <gui/screen1_1_screen/Screen1_1View.hpp>
-#include <gui/screen1_1_screen/Screen1_1Presenter.hpp>
+#include <gui/main_screen/MainView.hpp>
+#include <gui/main_screen/MainPresenter.hpp>
+#include <gui/skintemp_permin_screen/Skintemp_perminView.hpp>
+#include <gui/skintemp_permin_screen/Skintemp_perminPresenter.hpp>
+#include <gui/hr_permin_screen/Hr_perminView.hpp>
+#include <gui/hr_permin_screen/Hr_perminPresenter.hpp>
+#include <gui/cal_permin_screen/Cal_perminView.hpp>
+#include <gui/cal_permin_screen/Cal_perminPresenter.hpp>
+#include <gui/measure_hr_screen/Measure_hrView.hpp>
+#include <gui/measure_hr_screen/Measure_hrPresenter.hpp>
+#include <gui/enter_user_info_screen/Enter_user_infoView.hpp>
+#include <gui/enter_user_info_screen/Enter_user_infoPresenter.hpp>
 
 
 /**
@@ -38,9 +46,13 @@ public:
      * A list of all view types. Must end with meta::Nil.
      * @note All view types used in the application MUST be added to this list!
      */
-    typedef touchgfx::meta::TypeList< Screen1View,
-            touchgfx::meta::TypeList< Screen1_1View,
-            touchgfx::meta::Nil >
+    typedef touchgfx::meta::TypeList< MainView,
+            touchgfx::meta::TypeList< Skintemp_perminView,
+            touchgfx::meta::TypeList< Hr_perminView,
+            touchgfx::meta::TypeList< Cal_perminView,
+            touchgfx::meta::TypeList< Measure_hrView,
+            touchgfx::meta::TypeList< Enter_user_infoView,
+            touchgfx::meta::Nil > > > > >
             > GeneratedViewTypes;
 
     /**
@@ -52,9 +64,13 @@ public:
      * A list of all presenter types. Must end with meta::Nil.
      * @note All presenter types used in the application MUST be added to this list!
      */
-    typedef touchgfx::meta::TypeList< Screen1Presenter,
-            touchgfx::meta::TypeList< Screen1_1Presenter,
-            touchgfx::meta::Nil >
+    typedef touchgfx::meta::TypeList< MainPresenter,
+            touchgfx::meta::TypeList< Skintemp_perminPresenter,
+            touchgfx::meta::TypeList< Hr_perminPresenter,
+            touchgfx::meta::TypeList< Cal_perminPresenter,
+            touchgfx::meta::TypeList< Measure_hrPresenter,
+            touchgfx::meta::TypeList< Enter_user_infoPresenter,
+            touchgfx::meta::Nil > > > > >
             > GeneratedPresenterTypes;
 
     /**
@@ -77,7 +93,7 @@ public:
 
     virtual void gotoStartScreen(FrontendApplication& app)
     {
-        app.gotoScreen1ScreenNoTransition();
+        app.gotoMainScreenNoTransition();
     }
 protected:
     FrontendHeapBase(touchgfx::AbstractPartition& presenters, touchgfx::AbstractPartition& views, touchgfx::AbstractPartition& transitions, FrontendApplication& app)
